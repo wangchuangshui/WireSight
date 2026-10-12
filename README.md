@@ -4,7 +4,7 @@
 
 **See the scene. Label the points.**
 
-[Interactive demo](https://wangchuangshui.github.io/WireSight/demo/) · [Project film](https://wangchuangshui.github.io/WireSight/media/wiresight-demo.mp4) · [Dataset & reproduction](docs/DATASET.md) · [Observer guide](docs/OBSERVER_GUIDE.md) · [中文](docs/README.zh-CN.md)
+[Interactive demo](https://wangchuangshui.github.io/WireSight/demo/) · [Project film](https://wangchuangshui.github.io/WireSight/media/wiresight-demo.mp4) · [Dataset & reproduction](docs/DATASET.md) · [Observer guide](docs/OBSERVER_GUIDE.md) · [Download ZIP](https://github.com/wangchuangshui/WireSight/releases/download/v0.2.0/wiresight-0.2.0_20261012.zip) · [中文](docs/README.zh-CN.md)
 
 ![WireSight: real wire points, visual observation and original-point labels](media/launch-cover.png)
 
@@ -30,7 +30,9 @@ This is an **inspected development-scene conversation-VLM result**. It does not 
 
 ## Try the demo
 
-[Open the public demo](https://wangchuangshui.github.io/WireSight/demo/) without signing in, or open `demo/index.html` directly and serve the release locally:
+[Open the public demo](https://wangchuangshui.github.io/WireSight/demo/) without signing in. The page, frozen 3D data, evidence images, captions and film are hosted on **GitHub Pages**; the portable bundle is hosted on **GitHub Releases**. They remain available when the original development machine is shut down. The presentation uses static recorded assets.
+
+For optional local viewing, open `demo/index.html` directly or serve your own downloaded copy:
 
 ```bash
 python tools/serve_demo.py --host 127.0.0.1 --port 8000

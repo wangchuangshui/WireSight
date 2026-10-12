@@ -1,11 +1,11 @@
 {
   "project": "WireSight",
   "version": "0.2.0",
-  "built_utc": "2026-10-12T05:41:21.619025+00:00",
+  "built_utc": "2026-10-12T05:47:11.376575+00:00",
   "release_kind": "recorded conversation-VLM wire annotation prototype",
   "frozen_labels_changed": false,
   "automatic_model_call_in_demo": false,
-  "total_file_bytes": 92648952,
+  "total_file_bytes": 92649508,
   "file_count": 557,
   "files": {
     ".github/ISSUE_TEMPLATE/bug_report.md": {
@@ -45,8 +45,8 @@
       "sha256": "d0663f9fae976762facef7fff53be71bcd85f34e90a07a80ba5eca6d1d4dd52f"
     },
     "README.md": {
-      "bytes": 8452,
-      "sha256": "47204244194fe185800c0babf6d6b825dd02821edb000f786a272952e8a68b9b"
+      "bytes": 8866,
+      "sha256": "62d74ccaba542368187995a421e90e0108d9360bb59d97669d84646eacea429c"
     },
     "demo/app.js": {
       "bytes": 5533,
@@ -1713,8 +1713,8 @@
       "sha256": "10260f05bc11a9c01aae1da1f365b29bea3dd11dc0062543c5af6ddd78799110"
     },
     "demo/index.html": {
-      "bytes": 14516,
-      "sha256": "36ba27ddb0bed780ffe57375280bf1a7a5641bf1a8c21491c865dc612224d548"
+      "bytes": 14658,
+      "sha256": "b13f4ac0bbf758d9dfa639110c1fe0476abd8b8828fc87be960cfc5a4f6d06e3"
     },
     "demo/launch.js": {
       "bytes": 3422,
@@ -2239,7 +2239,8 @@
   },
   "github_publication_changes": [
     "README and demo links point to the public project",
-    "GitHub Pages workflow and root redirect added"
+    "GitHub Pages workflow and root redirect added",
+    "Public hosting and release download entry are explicit; local serving is optional"
   ],
   "archived_portable_zip_sha256": "153cd57e30dea839b11566db91dcb5181f63ed83f7f7fa15c8c51c3df3724cad"
 }
