@@ -1,0 +1,189 @@
+{
+  "source": "/workspace/pointnext_repro/data/gridnet/t1z5b/lidar/t1z5b.las",
+  "roi_y_offset": [
+    100,
+    110
+  ],
+  "roi_points": 1629923,
+  "annotation_sha256": "7449e24e72f699274940413db44bb048dfce334c7aae1d32a378bbeb30cbc78f",
+  "observer_types": [
+    "conversation_vlm"
+  ],
+  "combined": {
+    "tp": 8016,
+    "fp": 127,
+    "fn": 478,
+    "precision_pct": 98.44037823897827,
+    "recall_pct": 94.37249823404757,
+    "gt_points": 8494,
+    "predicted_points": 8143,
+    "ignored_predicted_points": 0
+  },
+  "class_recalls": {
+    "5": {
+      "gt": 4827,
+      "tp": 4518,
+      "recall_pct": 93.59850839030453
+    },
+    "6": {
+      "gt": 3667,
+      "tp": 3498,
+      "recall_pct": 95.39132806108536
+    },
+    "7": {
+      "gt": 0,
+      "tp": 0,
+      "recall_pct": null
+    }
+  },
+  "spatial_bins": [
+    {
+      "offset_m": 100.0,
+      "tp": 8016,
+      "fp": 127,
+      "fn": 478,
+      "precision_pct": 98.44037823897827,
+      "recall_pct": 94.37249823404757,
+      "gt_points": 8494,
+      "predicted_points": 8143,
+      "ignored_predicted_points": 0
+    }
+  ],
+  "instance_point_counts": {
+    "1": 1565,
+    "2": 1860,
+    "3": 1408,
+    "4": 1760,
+    "5": 1550
+  },
+  "instance_accuracy": "NOT_EVALUATED: no independent real-scene instance truth",
+  "unknown_regions": [
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "本轮上下文复核仍不能确定塔线接触窄带的逐点归属；保留既有明确区间，不猜测补全。",
+      "selection": {
+        "view_id": "wire_1_side",
+        "type": "box",
+        "coordinates": [
+          430,
+          0,
+          448,
+          1000
+        ]
+      },
+      "question_id": "connection_1"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "本轮上下文复核仍不能确定塔线接触窄带的逐点归属；保留既有明确区间，不猜测补全。",
+      "selection": {
+        "view_id": "wire_2_side",
+        "type": "box",
+        "coordinates": [
+          421,
+          0,
+          442,
+          1000
+        ]
+      },
+      "question_id": "connection_2"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "本轮上下文复核仍不能确定塔线接触窄带的逐点归属；保留既有明确区间，不猜测补全。",
+      "selection": {
+        "view_id": "wire_3_side",
+        "type": "box",
+        "coordinates": [
+          399,
+          0,
+          418,
+          1000
+        ]
+      },
+      "question_id": "connection_3"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "本轮上下文复核仍不能确定塔线接触窄带的逐点归属；保留既有明确区间，不猜测补全。",
+      "selection": {
+        "view_id": "wire_4_side",
+        "type": "box",
+        "coordinates": [
+          376,
+          0,
+          399,
+          1000
+        ]
+      },
+      "question_id": "connection_4"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "本轮上下文复核仍不能确定塔线接触窄带的逐点归属；保留既有明确区间，不猜测补全。",
+      "selection": {
+        "view_id": "wire_5_side",
+        "type": "box",
+        "coordinates": [
+          370,
+          0,
+          390,
+          1000
+        ]
+      },
+      "question_id": "connection_5"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "3号线接触窄带缺少第二个能排除塔架混入的清晰方向；新候选未提交。",
+      "question_id": "add_visible_contact_3",
+      "selection": {
+        "view_id": "wire3_contact_readable",
+        "type": "box",
+        "coordinates": [
+          340,
+          530,
+          580,
+          680
+        ]
+      }
+    }
+  ],
+  "thresholds": {
+    "precision_pct": 98,
+    "recall_pct": 90,
+    "each_present_class_recall_pct": 90
+  },
+  "raw_point_gate_passed": true,
+  "full_scene_completed": false,
+  "per_class_recall_gate_passed": true,
+  "point_and_class_gate_passed": true,
+  "development_context": "Development scene; not an independent held-out evaluation",
+  "false_positive_classes": {
+    "1": 122,
+    "8": 5
+  },
+  "evaluation_scope": "declared_ROI",
+  "unobserved_scene_points": 57994166,
+  "label_protocol": {
+    "positive_classes": [
+      5,
+      6,
+      7
+    ],
+    "ignored_classes": [
+      12,
+      13,
+      255
+    ],
+    "unit": "original LAS records, no voxelization",
+    "unknown_positive_points_count_as_false_negatives": true,
+    "undefined_precision_or_recall": null
+  }
+}

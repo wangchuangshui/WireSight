@@ -1,0 +1,9 @@
+{
+  "actions_replayed": 25,
+  "point_labels_identical": true,
+  "ground_truth_read": false,
+  "model_invoked": false,
+  "meaning": "executor replay of saved visual decisions, not an autonomous model repeat",
+  "tested_in_separate_venv": true,
+  "installed_package_version": "0.2.0"
+}

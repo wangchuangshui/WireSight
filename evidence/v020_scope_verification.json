@@ -1,0 +1,10 @@
+{
+  "version": "0.2.0",
+  "executor_python_files_byte_identical_to_v010": true,
+  "files_checked": 11,
+  "frozen_annotation_sha256": "f8f802ee2d2d78730c39eefb68c81319a6e50a8554f5d78b5e0cd74213116437",
+  "frozen_point_payload_sha256": "55654535ad563bf990e22c5ae9023fe941118b7efb0822947d47c17f5e797107",
+  "source_las_sha256": "11c9a2abf2eed1a6207a9bfeb5d2a00ea6f28ad09adbb40b0afcfdb0613fbd35",
+  "new_perception_or_quality_claim": false,
+  "changes": "English presentation, exact data reproduction and release tooling; point execution and labels unchanged"
+}

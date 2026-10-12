@@ -1,0 +1,83 @@
+{
+  "dataset": "heig-vd-geo/GridNet-HD",
+  "revision": "944b561090d1fed9803ccc96bfafb6ab3049726c",
+  "dataset_url": "https://huggingface.co/datasets/heig-vd-geo/GridNet-HD",
+  "license": "CC BY 4.0",
+  "file": "t1z5b/lidar/t1z5b.las",
+  "download_url": "https://huggingface.co/datasets/heig-vd-geo/GridNet-HD/resolve/944b561090d1fed9803ccc96bfafb6ab3049726c/t1z5b/lidar/t1z5b.las",
+  "source_sha256": "11c9a2abf2eed1a6207a9bfeb5d2a00ea6f28ad09adbb40b0afcfdb0613fbd35",
+  "source_bytes": 2265716708,
+  "header": {
+    "point_count": 59624089,
+    "scales": [
+      0.0001,
+      0.0001,
+      0.0001
+    ],
+    "offsets": [
+      383173.23553636426,
+      5100011.92928783,
+      1887.7527909332812
+    ],
+    "bounds": [
+      [
+        383098.24143636425,
+        5099626.82948783,
+        1862.711390933281
+      ],
+      [
+        383248.22963636427,
+        5100397.02908783,
+        1912.7941909332812
+      ]
+    ],
+    "point_format": 3,
+    "las_version": "1.2",
+    "truth_field": "ground_truth",
+    "crs": {
+      "authority": [
+        "EPSG",
+        "32632"
+      ],
+      "wkt": "PROJCRS[\"WGS 84 / UTM zone 32N\",BASEGEOGCRS[\"WGS 84\",ENSEMBLE[\"World Geodetic System 1984 ensemble\",MEMBER[\"World Geodetic System 1984 (Transit)\"],MEMBER[\"World Geodetic System 1984 (G730)\"],MEMBER[\"World Geodetic System 1984 (G873)\"],MEMBER[\"World Geodetic System 1984 (G1150)\"],MEMBER[\"World Geodetic System 1984 (G1674)\"],MEMBER[\"World Geodetic System 1984 (G1762)\"],MEMBER[\"World Geodetic System 1984 (G2139)\"],MEMBER[\"World Geodetic System 1984 (G2296)\"],ELLIPSOID[\"WGS 84\",6378137,298.257223563,LENGTHUNIT[\"metre\",1]],ENSEMBLEACCURACY[2.0]],PRIMEM[\"Greenwich\",0,ANGLEUNIT[\"degree\",0.0174532925199433]],ID[\"EPSG\",4326]],CONVERSION[\"UTM zone 32N\",METHOD[\"Transverse Mercator\",ID[\"EPSG\",9807]],PARAMETER[\"Latitude of natural origin\",0,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8801]],PARAMETER[\"Longitude of natural origin\",9,ANGLEUNIT[\"degree\",0.0174532925199433],ID[\"EPSG\",8802]],PARAMETER[\"Scale factor at natural origin\",0.9996,SCALEUNIT[\"unity\",1],ID[\"EPSG\",8805]],PARAMETER[\"False easting\",500000,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8806]],PARAMETER[\"False northing\",0,LENGTHUNIT[\"metre\",1],ID[\"EPSG\",8807]]],CS[Cartesian,2],AXIS[\"(E)\",east,ORDER[1],LENGTHUNIT[\"metre\",1]],AXIS[\"(N)\",north,ORDER[2],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Navigation and medium accuracy spatial referencing.\"],AREA[\"Between 6\u00b0E and 12\u00b0E, northern hemisphere between equator and 84\u00b0N, onshore and offshore. Algeria. Austria. Cameroon. Denmark. Equatorial Guinea. France. Gabon. Germany. Italy. Libya. Liechtenstein. Monaco. Netherlands. Niger. Nigeria. Norway. Sao Tome and Principe. Svalbard. Sweden. Switzerland. Tunisia. Vatican City State.\"],BBOX[0,6,84,12]],ID[\"EPSG\",32632]]"
+    }
+  },
+  "scene": "t1z5b",
+  "use": "inspected development scene, not independent held-out data",
+  "roi_y_offset_m": [
+    0,
+    770.2
+  ],
+  "roi_boundary": "left inclusive, right exclusive; offsets from LAS header min Y",
+  "inference_fields": [
+    "coords",
+    "record_ids"
+  ],
+  "target_raw_classes": [
+    5,
+    6,
+    7
+  ],
+  "ignored_raw_classes": [
+    12,
+    13,
+    255
+  ],
+  "zero_instance_means": "unconfirmed, including unknown/background; every omitted target is a false negative",
+  "full_prediction": "examples/full_scene/frozen_positive_labels.npz",
+  "full_prediction_sha256": "8784d782d3afc0fa928a0e934c1b7ee61d71f752cac69eff74611768e77366c3",
+  "positive_record_count": 245957,
+  "scope_record_count": 59624089,
+  "implicit_zero_for_all_other_original_records": true,
+  "source_annotation_sha256": "f8f802ee2d2d78730c39eefb68c81319a6e50a8554f5d78b5e0cd74213116437",
+  "original_instance_counts": {
+    "1": 44711,
+    "2": 52454,
+    "3": 43347,
+    "4": 48425,
+    "5": 44611,
+    "6": 5794,
+    "7": 6615
+  },
+  "official_split": "val"
+}

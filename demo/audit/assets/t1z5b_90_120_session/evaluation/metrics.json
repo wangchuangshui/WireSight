@@ -1,0 +1,190 @@
+{
+  "source": "/workspace/pointnext_repro/data/gridnet/t1z5b/lidar/t1z5b.las",
+  "roi_y_offset": [
+    90.0,
+    120.0
+  ],
+  "roi_points": 4578856,
+  "annotation_sha256": "d52a318b953614878ee17a18645a544da28ddd8e9b6f49bf65770f480f0ca936",
+  "observer_types": [
+    "conversation_vlm"
+  ],
+  "combined": {
+    "tp": 21740,
+    "fp": 1,
+    "fn": 962,
+    "precision_pct": 99.99540039556598,
+    "recall_pct": 95.76248788652983,
+    "gt_points": 22702,
+    "predicted_points": 21741,
+    "ignored_predicted_points": 0
+  },
+  "class_recalls": {
+    "5": {
+      "gt": 13019,
+      "tp": 12475,
+      "recall_pct": 95.82149166602657
+    },
+    "6": {
+      "gt": 9683,
+      "tp": 9265,
+      "recall_pct": 95.68315604667974
+    },
+    "7": {
+      "gt": 0,
+      "tp": 0,
+      "recall_pct": null
+    }
+  },
+  "spatial_bins": [
+    {
+      "offset_m": 90.0,
+      "tp": 7034,
+      "fp": 0,
+      "fn": 29,
+      "precision_pct": 100.0,
+      "recall_pct": 99.5894095993204,
+      "gt_points": 7063,
+      "predicted_points": 7034,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 100.0,
+      "tp": 7602,
+      "fp": 1,
+      "fn": 892,
+      "precision_pct": 99.98684729711955,
+      "recall_pct": 89.49846950788792,
+      "gt_points": 8494,
+      "predicted_points": 7603,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 110.0,
+      "tp": 7104,
+      "fp": 0,
+      "fn": 41,
+      "precision_pct": 100.0,
+      "recall_pct": 99.42617214835549,
+      "gt_points": 7145,
+      "predicted_points": 7104,
+      "ignored_predicted_points": 0
+    }
+  ],
+  "instance_point_counts": {
+    "1": 4273,
+    "2": 4835,
+    "3": 4079,
+    "4": 4430,
+    "5": 4124
+  },
+  "instance_accuracy": "NOT_EVALUATED: no independent real-scene instance truth",
+  "unknown_regions": [
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Wire and support overlap in this narrow attachment region; excluded pending a closer independent view.",
+      "instance_hint": "wire_1",
+      "selection": {
+        "view_id": "initial_side",
+        "type": "box",
+        "coordinates": [
+          461.88614356358096,
+          0,
+          489.3503151100909,
+          1000
+        ]
+      }
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Wire and support overlap in this narrow attachment region; excluded pending a closer independent view.",
+      "instance_hint": "wire_2",
+      "selection": {
+        "view_id": "initial_side",
+        "type": "box",
+        "coordinates": [
+          464.22213617349803,
+          0,
+          491.68733439096053,
+          1000
+        ]
+      }
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Wire and support overlap in this narrow attachment region; excluded pending a closer independent view.",
+      "instance_hint": "wire_3",
+      "selection": {
+        "view_id": "initial_side",
+        "type": "box",
+        "coordinates": [
+          456.85175888724683,
+          0,
+          484.2616102536953,
+          1000
+        ]
+      }
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Wire and support overlap in this narrow attachment region; excluded pending a closer independent view.",
+      "instance_hint": "wire_4",
+      "selection": {
+        "view_id": "initial_side",
+        "type": "box",
+        "coordinates": [
+          448.3204478544905,
+          0,
+          475.77612603987615,
+          1000
+        ]
+      }
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Wire and support overlap in this narrow attachment region; excluded pending a closer independent view.",
+      "instance_hint": "wire_5",
+      "selection": {
+        "view_id": "initial_side",
+        "type": "box",
+        "coordinates": [
+          445.4361403479949,
+          0,
+          472.9242053077484,
+          1000
+        ]
+      }
+    }
+  ],
+  "thresholds": {
+    "precision_pct": 98,
+    "recall_pct": 90
+  },
+  "raw_point_gate_passed": true,
+  "full_scene_completed": false,
+  "false_positive_classes": {
+    "8": 1
+  },
+  "evaluation_scope": "declared_ROI",
+  "unobserved_scene_points": 55045233,
+  "label_protocol": {
+    "positive_classes": [
+      5,
+      6,
+      7
+    ],
+    "ignored_classes": [
+      12,
+      13,
+      255
+    ],
+    "unit": "original LAS records, no voxelization",
+    "unknown_positive_points_count_as_false_negatives": true,
+    "undefined_precision_or_recall": null
+  }
+}

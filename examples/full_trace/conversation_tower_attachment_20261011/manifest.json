@@ -1,0 +1,20 @@
+{
+  "run": "conversation_tower_attachment_20261011",
+  "roi_y_offset_m": [
+    100,
+    110
+  ],
+  "protocol": "legacy_v0",
+  "geometry_sha256": "0b8e3bb064c95792075277d1254a1b3925c21856a2b3682a8266746c99d5c4d1",
+  "reference_annotation_sha256": "3f397c031c491c3abdd16ad85ca55b124e44d5e27d6dc4cb0f431f9191f8cd5e",
+  "recorded_path_prefixes": [
+    "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/conversation_tower_attachment_20261011",
+    "visual_annotation_v3/runs/conversation_tower_attachment_20261011"
+  ],
+  "actions_sha256": "6ff482cc41bf8d05dc4ef1ca2d125928e81786cf3bf89c92cb47d67f94dd3f33",
+  "action_count": 33,
+  "geometry_member_sha256": {
+    "coords.npy": "5f116b6999ceed685820fbf15e3f6bebc2bd5db973f4a91d767c66e1b4027146",
+    "record_ids.npy": "2d80a4208e02b65baa6f4d0899d59e440fe68240e9bf98612ec55696db2bd43a"
+  }
+}

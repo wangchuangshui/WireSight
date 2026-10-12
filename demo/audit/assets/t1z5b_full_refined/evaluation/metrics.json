@@ -1,0 +1,1222 @@
+{
+  "source": "/workspace/pointnext_repro/data/gridnet/t1z5b/lidar/t1z5b.las",
+  "roi_y_offset": [
+    0,
+    770.2
+  ],
+  "roi_points": 59624089,
+  "annotation_sha256": "cdc955daf165268ea78307e0404cd9a0b06d3dba5e6597da6d99ebbfcbc48aa2",
+  "observer_types": [
+    "conversation_vlm"
+  ],
+  "combined": {
+    "tp": 243472,
+    "fp": 0,
+    "fn": 9069,
+    "precision_pct": 100.0,
+    "recall_pct": 96.40889994099967,
+    "gt_points": 252541,
+    "predicted_points": 243472,
+    "ignored_predicted_points": 0
+  },
+  "class_recalls": {
+    "5": {
+      "gt": 136238,
+      "tp": 131246,
+      "recall_pct": 96.33582407257887
+    },
+    "6": {
+      "gt": 103439,
+      "tp": 99817,
+      "recall_pct": 96.49841935826913
+    },
+    "7": {
+      "gt": 12864,
+      "tp": 12409,
+      "recall_pct": 96.46299751243781
+    }
+  },
+  "spatial_bins": [
+    {
+      "offset_m": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": null,
+      "recall_pct": null,
+      "gt_points": 0,
+      "predicted_points": 0,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 10.0,
+      "tp": 248,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 248,
+      "predicted_points": 248,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 20.0,
+      "tp": 1661,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 1661,
+      "predicted_points": 1661,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 30.0,
+      "tp": 1338,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 1338,
+      "predicted_points": 1338,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 40.0,
+      "tp": 1301,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 1301,
+      "predicted_points": 1301,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 50.0,
+      "tp": 1293,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 1293,
+      "predicted_points": 1293,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 60.0,
+      "tp": 3149,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 3149,
+      "predicted_points": 3149,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 70.0,
+      "tp": 3685,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 3685,
+      "predicted_points": 3685,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 80.0,
+      "tp": 4147,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 4147,
+      "predicted_points": 4147,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 90.0,
+      "tp": 7063,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 7063,
+      "predicted_points": 7063,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 100.0,
+      "tp": 5566,
+      "fp": 0,
+      "fn": 2928,
+      "precision_pct": 100.0,
+      "recall_pct": 65.52860842947963,
+      "gt_points": 8494,
+      "predicted_points": 5566,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 110.0,
+      "tp": 7145,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 7145,
+      "predicted_points": 7145,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 120.0,
+      "tp": 6836,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 6836,
+      "predicted_points": 6836,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 130.0,
+      "tp": 3064,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 3064,
+      "predicted_points": 3064,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 140.0,
+      "tp": 2740,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2740,
+      "predicted_points": 2740,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 150.0,
+      "tp": 2675,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2675,
+      "predicted_points": 2675,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 160.0,
+      "tp": 2469,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2469,
+      "predicted_points": 2469,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 170.0,
+      "tp": 2536,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2536,
+      "predicted_points": 2536,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 180.0,
+      "tp": 2468,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2468,
+      "predicted_points": 2468,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 190.0,
+      "tp": 2402,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2402,
+      "predicted_points": 2402,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 200.0,
+      "tp": 2384,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2384,
+      "predicted_points": 2384,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 210.0,
+      "tp": 2358,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2358,
+      "predicted_points": 2358,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 220.0,
+      "tp": 2353,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2353,
+      "predicted_points": 2353,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 230.0,
+      "tp": 2300,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2300,
+      "predicted_points": 2300,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 240.0,
+      "tp": 2319,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2319,
+      "predicted_points": 2319,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 250.0,
+      "tp": 2289,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2289,
+      "predicted_points": 2289,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 260.0,
+      "tp": 2326,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2326,
+      "predicted_points": 2326,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 270.0,
+      "tp": 2352,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2352,
+      "predicted_points": 2352,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 280.0,
+      "tp": 2347,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2347,
+      "predicted_points": 2347,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 290.0,
+      "tp": 2328,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2328,
+      "predicted_points": 2328,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 300.0,
+      "tp": 2361,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2361,
+      "predicted_points": 2361,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 310.0,
+      "tp": 2423,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2423,
+      "predicted_points": 2423,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 320.0,
+      "tp": 2430,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2430,
+      "predicted_points": 2430,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 330.0,
+      "tp": 2482,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2482,
+      "predicted_points": 2482,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 340.0,
+      "tp": 2522,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2522,
+      "predicted_points": 2522,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 350.0,
+      "tp": 2535,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2535,
+      "predicted_points": 2535,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 360.0,
+      "tp": 2663,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2663,
+      "predicted_points": 2663,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 370.0,
+      "tp": 2919,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2919,
+      "predicted_points": 2919,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 380.0,
+      "tp": 3736,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 3736,
+      "predicted_points": 3736,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 390.0,
+      "tp": 5845,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 5845,
+      "predicted_points": 5845,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 400.0,
+      "tp": 12027,
+      "fp": 0,
+      "fn": 2327,
+      "precision_pct": 100.0,
+      "recall_pct": 83.78849101295806,
+      "gt_points": 14354,
+      "predicted_points": 12027,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 410.0,
+      "tp": 7471,
+      "fp": 0,
+      "fn": 764,
+      "precision_pct": 100.0,
+      "recall_pct": 90.72252580449302,
+      "gt_points": 8235,
+      "predicted_points": 7471,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 420.0,
+      "tp": 5821,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 5821,
+      "predicted_points": 5821,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 430.0,
+      "tp": 3615,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 3615,
+      "predicted_points": 3615,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 440.0,
+      "tp": 2869,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2869,
+      "predicted_points": 2869,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 450.0,
+      "tp": 2764,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2764,
+      "predicted_points": 2764,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 460.0,
+      "tp": 2609,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2609,
+      "predicted_points": 2609,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 470.0,
+      "tp": 2631,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2631,
+      "predicted_points": 2631,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 480.0,
+      "tp": 2623,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2623,
+      "predicted_points": 2623,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 490.0,
+      "tp": 2595,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2595,
+      "predicted_points": 2595,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 500.0,
+      "tp": 2562,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2562,
+      "predicted_points": 2562,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 510.0,
+      "tp": 2573,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2573,
+      "predicted_points": 2573,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 520.0,
+      "tp": 2600,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2600,
+      "predicted_points": 2600,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 530.0,
+      "tp": 2575,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2575,
+      "predicted_points": 2575,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 540.0,
+      "tp": 2575,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2575,
+      "predicted_points": 2575,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 550.0,
+      "tp": 2605,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2605,
+      "predicted_points": 2605,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 560.0,
+      "tp": 2632,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2632,
+      "predicted_points": 2632,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 570.0,
+      "tp": 2642,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2642,
+      "predicted_points": 2642,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 580.0,
+      "tp": 2736,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2736,
+      "predicted_points": 2736,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 590.0,
+      "tp": 2658,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2658,
+      "predicted_points": 2658,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 600.0,
+      "tp": 2761,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2761,
+      "predicted_points": 2761,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 610.0,
+      "tp": 2934,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 2934,
+      "predicted_points": 2934,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 620.0,
+      "tp": 3463,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 3463,
+      "predicted_points": 3463,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 630.0,
+      "tp": 5372,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 5372,
+      "predicted_points": 5372,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 640.0,
+      "tp": 8242,
+      "fp": 0,
+      "fn": 86,
+      "precision_pct": 100.0,
+      "recall_pct": 98.96733909702209,
+      "gt_points": 8328,
+      "predicted_points": 8242,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 650.0,
+      "tp": 12389,
+      "fp": 0,
+      "fn": 2961,
+      "precision_pct": 100.0,
+      "recall_pct": 80.71009771986971,
+      "gt_points": 15350,
+      "predicted_points": 12389,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 660.0,
+      "tp": 6930,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 6930,
+      "predicted_points": 6930,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 670.0,
+      "tp": 5639,
+      "fp": 0,
+      "fn": 3,
+      "precision_pct": 100.0,
+      "recall_pct": 99.9468273661822,
+      "gt_points": 5642,
+      "predicted_points": 5639,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 680.0,
+      "tp": 3978,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 3978,
+      "predicted_points": 3978,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 690.0,
+      "tp": 1363,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 1363,
+      "predicted_points": 1363,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 700.0,
+      "tp": 994,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 994,
+      "predicted_points": 994,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 710.0,
+      "tp": 956,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 956,
+      "predicted_points": 956,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 720.0,
+      "tp": 932,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 932,
+      "predicted_points": 932,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 730.0,
+      "tp": 1065,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 1065,
+      "predicted_points": 1065,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 740.0,
+      "tp": 213,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 213,
+      "predicted_points": 213,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 750.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": null,
+      "recall_pct": null,
+      "gt_points": 0,
+      "predicted_points": 0,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 760.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": null,
+      "recall_pct": null,
+      "gt_points": 0,
+      "predicted_points": 0,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 770.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": null,
+      "recall_pct": null,
+      "gt_points": 0,
+      "predicted_points": 0,
+      "ignored_predicted_points": 0
+    }
+  ],
+  "instance_point_counts": {
+    "1": 44201,
+    "2": 51924,
+    "3": 42910,
+    "4": 47893,
+    "5": 44135,
+    "6": 5794,
+    "7": 6615
+  },
+  "instance_accuracy": "NOT_EVALUATED: no independent real-scene instance truth",
+  "unknown_regions": [
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_1",
+      "selection": {
+        "view_id": "wire_1_side",
+        "type": "box",
+        "coordinates": [
+          151.5,
+          0,
+          155.5,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_1",
+      "selection": {
+        "view_id": "wire_1_side",
+        "type": "box",
+        "coordinates": [
+          533.7,
+          0,
+          537.7,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_1",
+      "selection": {
+        "view_id": "wire_1_side",
+        "type": "box",
+        "coordinates": [
+          838,
+          0,
+          842,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_2",
+      "selection": {
+        "view_id": "wire_2_side",
+        "type": "box",
+        "coordinates": [
+          150,
+          0,
+          154,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_2",
+      "selection": {
+        "view_id": "wire_2_side",
+        "type": "box",
+        "coordinates": [
+          534.5,
+          0,
+          538.5,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_2",
+      "selection": {
+        "view_id": "wire_2_side",
+        "type": "box",
+        "coordinates": [
+          839,
+          0,
+          843,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_3",
+      "selection": {
+        "view_id": "wire_3_side",
+        "type": "box",
+        "coordinates": [
+          152,
+          0,
+          156,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_3",
+      "selection": {
+        "view_id": "wire_3_side",
+        "type": "box",
+        "coordinates": [
+          535,
+          0,
+          539,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_3",
+      "selection": {
+        "view_id": "wire_3_side",
+        "type": "box",
+        "coordinates": [
+          840,
+          0,
+          844,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_4",
+      "selection": {
+        "view_id": "wire_4_side",
+        "type": "box",
+        "coordinates": [
+          150,
+          0,
+          154,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_4",
+      "selection": {
+        "view_id": "wire_4_side",
+        "type": "box",
+        "coordinates": [
+          533.5,
+          0,
+          537.5,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_4",
+      "selection": {
+        "view_id": "wire_4_side",
+        "type": "box",
+        "coordinates": [
+          838.5,
+          0,
+          842.5,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_5",
+      "selection": {
+        "view_id": "wire_5_side",
+        "type": "box",
+        "coordinates": [
+          152.4,
+          0,
+          156.4,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_5",
+      "selection": {
+        "view_id": "wire_5_side",
+        "type": "box",
+        "coordinates": [
+          535.5,
+          0,
+          539.5,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "Narrow cable/support attachment strip unresolved in full-scene overview; retained in full-scene recall denominator.",
+      "instance_hint": "wire_5",
+      "selection": {
+        "view_id": "wire_5_side",
+        "type": "box",
+        "coordinates": [
+          840.1,
+          0,
+          844.1,
+          1000
+        ]
+      },
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "与杆塔相接的短段在当前分辨率下混叠，保留未知并计入召回分母。",
+      "view_id": "cross_cable_top",
+      "type": "box",
+      "coordinates": [
+        35,
+        820,
+        80,
+        860
+      ],
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/tower_mid_refinement"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "塔右端连接头附近保留未决，不据此缩小召回分母。",
+      "view_id": "cross_cable_top_wide",
+      "type": "box",
+      "coordinates": [
+        34,
+        858,
+        55,
+        888
+      ],
+      "evidence_session": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/tower_far_refinement"
+    }
+  ],
+  "thresholds": {
+    "precision_pct": 98,
+    "recall_pct": 90,
+    "each_present_class_recall_pct": 90
+  },
+  "raw_point_gate_passed": true,
+  "full_scene_completed": false,
+  "per_class_recall_gate_passed": true,
+  "point_and_class_gate_passed": true,
+  "development_context": "Evaluation-directed development refinement: after inspecting first-pass class recall and spatial-bin counts, revisited geometry-only views at middle and far towers. No GT point IDs used for selection. Not held-out or autonomous local-model evaluation.",
+  "false_positive_classes": {},
+  "evaluation_scope": "full_scene",
+  "unobserved_scene_points": 0,
+  "label_protocol": {
+    "positive_classes": [
+      5,
+      6,
+      7
+    ],
+    "ignored_classes": [
+      12,
+      13,
+      255
+    ],
+    "unit": "original LAS records, no voxelization",
+    "unknown_positive_points_count_as_false_negatives": true,
+    "undefined_precision_or_recall": null
+  }
+}

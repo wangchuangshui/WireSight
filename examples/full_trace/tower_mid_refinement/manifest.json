@@ -1,0 +1,20 @@
+{
+  "run": "tower_mid_refinement",
+  "roi_y_offset_m": [
+    395,
+    420
+  ],
+  "protocol": "legacy_v0",
+  "geometry_sha256": "7319569aa6f9b572d60694f103d4ef3824af4d54262240c16ceaaa2403c33e89",
+  "reference_annotation_sha256": "b8603def782e95ec8fc1c88db155d95ad427d37c09cbbc11670c73a7bdf60c0b",
+  "recorded_path_prefixes": [
+    "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/tower_mid_refinement",
+    "visual_annotation_v3/runs/tower_mid_refinement"
+  ],
+  "actions_sha256": "af44b4d48ca9133819f1ed8309c12e7b8d8af6d2eadcfd9425ba27df14d47d68",
+  "action_count": 11,
+  "geometry_member_sha256": {
+    "coords.npy": "9b422f0cde4ec7a76f66d04a6e93d040b22fb841425e4a8e3c01e2d82f9222ae",
+    "record_ids.npy": "1f24791deb1ab911be165c49c7bae068953924881135162c9b9749cf036621bc"
+  }
+}

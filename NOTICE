@@ -1,0 +1,16 @@
+WireSight
+Copyright 2026 WireSight contributors
+
+Software is distributed under the Apache License, Version 2.0.
+GridNet-HD-derived geometry, evidence projections, and visual media are
+separately attributed in docs/DATA_ATTRIBUTION.md and subject to CC BY 4.0.
+
+This release contains project-generated annotations and visualizations of
+GridNet-HD by Antoine Carreaud, Shanci Li, Malo De Lacour, Digre Frinde,
+Jan Skaloud and Adrien Gressin (2026). Dataset authors have not endorsed this
+project's annotations, wire identities or quality claims.
+
+Executor source is extracted from the workspace visual_annotation_v3 prototype.
+replay.py has been modified to support relocated recorded-example paths.
+The demo presentation and release packaging are new; historical label arrays
+and original evidence images are preserved.

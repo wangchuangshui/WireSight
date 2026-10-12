@@ -1,0 +1,107 @@
+{
+  "source": "/workspace/pointnext_repro/data/gridnet/t1z5b/lidar/t1z5b.las",
+  "roi_y_offset": [
+    30.0,
+    60.0
+  ],
+  "roi_points": 867479,
+  "annotation_sha256": "e4ba097d0297ce8117d6556743e14006c2a38528a2e3e164e780c504e8520699",
+  "observer_types": [
+    "conversation_vlm"
+  ],
+  "combined": {
+    "tp": 3932,
+    "fp": 0,
+    "fn": 0,
+    "precision_pct": 100.0,
+    "recall_pct": 100.0,
+    "gt_points": 3932,
+    "predicted_points": 3932,
+    "ignored_predicted_points": 0
+  },
+  "class_recalls": {
+    "5": {
+      "gt": 2187,
+      "tp": 2187,
+      "recall_pct": 100.0
+    },
+    "6": {
+      "gt": 1745,
+      "tp": 1745,
+      "recall_pct": 100.0
+    },
+    "7": {
+      "gt": 0,
+      "tp": 0,
+      "recall_pct": null
+    }
+  },
+  "spatial_bins": [
+    {
+      "offset_m": 30.0,
+      "tp": 1338,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 1338,
+      "predicted_points": 1338,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 40.0,
+      "tp": 1301,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 1301,
+      "predicted_points": 1301,
+      "ignored_predicted_points": 0
+    },
+    {
+      "offset_m": 50.0,
+      "tp": 1293,
+      "fp": 0,
+      "fn": 0,
+      "precision_pct": 100.0,
+      "recall_pct": 100.0,
+      "gt_points": 1293,
+      "predicted_points": 1293,
+      "ignored_predicted_points": 0
+    }
+  ],
+  "instance_point_counts": {
+    "1": 704,
+    "2": 893,
+    "3": 732,
+    "4": 852,
+    "5": 751
+  },
+  "instance_accuracy": "NOT_EVALUATED: no independent real-scene instance truth",
+  "unknown_regions": [],
+  "thresholds": {
+    "precision_pct": 98,
+    "recall_pct": 90
+  },
+  "raw_point_gate_passed": true,
+  "full_scene_completed": false,
+  "false_positive_classes": {},
+  "evaluation_scope": "declared_ROI",
+  "unobserved_scene_points": 58756610,
+  "label_protocol": {
+    "positive_classes": [
+      5,
+      6,
+      7
+    ],
+    "ignored_classes": [
+      12,
+      13,
+      255
+    ],
+    "unit": "original LAS records, no voxelization",
+    "unknown_positive_points_count_as_false_negatives": true,
+    "undefined_precision_or_recall": null
+  }
+}

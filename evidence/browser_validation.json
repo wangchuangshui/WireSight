@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "checks": {
+    "top_view_entry_and_evidence_bounded_meaning": true,
+    "hero_colored_uncolored_display": true,
+    "recorded_model_paths_visible_and_disclosed": true,
+    "five_wire_pixels": [
+      495,
+      491,
+      476,
+      465,
+      482
+    ],
+    "eight_steps_and_sixteen_images": true,
+    "five_instance_isolation_by_pixels": true,
+    "uncolored_display": true,
+    "rotation_changes_pixels": true,
+    "camera_presets_and_region_scope": true,
+    "image_zoom": true,
+    "guided_playback_controls": true,
+    "local_branch_evidence_link": true,
+    "all_ten_audit_runs": true,
+    "all_audit_steps_rendered": 499,
+    "mobile_no_horizontal_overflow": true,
+    "intro_video_dialog": true
+  },
+  "evidence_images_checked": 387,
+  "browser_errors": [],
+  "network_requests": [],
+  "point_payload_sha256": "55654535ad563bf990e22c5ae9023fe941118b7efb0822947d47c17f5e797107",
+  "display_counts": {
+    "0": 74690,
+    "1": 44711,
+    "2": 52454,
+    "3": 43347,
+    "4": 48425,
+    "5": 44611,
+    "6": 5794,
+    "7": 6615
+  },
+  "mode": "file://; network blocked; actual canvas pixels inspected"
+}

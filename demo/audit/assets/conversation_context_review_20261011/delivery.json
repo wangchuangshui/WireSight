@@ -1,0 +1,151 @@
+{
+  "status": "IMPLEMENTED_AND_CONTROLLED_REVIEW_VALIDATED",
+  "protocol": "context_v1",
+  "observer": "conversation_vlm",
+  "local_qwen_used": false,
+  "point_model_used": false,
+  "automatic_geometric_tracing_used": false,
+  "scene": {
+    "roi_y_offset_m": [
+      100,
+      110
+    ],
+    "raw_points": 1629923,
+    "selected_points": 7950,
+    "instances": 5
+  },
+  "changes": [
+    "unfiltered original context restores competing objects and drops inherited candidate/depth filters",
+    "explicit support/contradict/unobservable evidence; neutral inspection never alters candidate points",
+    "question-driven free camera observations and unresolved connection tracking",
+    "versioned add/remove/replace/reassign with reviewed change preview and stale-preview rejection",
+    "full raw-ROI survey required after final annotation change; completeness remains unverified"
+  ],
+  "experiment": {
+    "type": "controlled review of imported fixed baseline candidates",
+    "baseline_import": {
+      "source": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/conversation_tower_attachment_20261011",
+      "actions_sha256": "6ff482cc41bf8d05dc4ef1ca2d125928e81786cf3bf89c92cb47d67f94dd3f33",
+      "annotation_sha256": "3f397c031c491c3abdd16ad85ca55b124e44d5e27d6dc4cb0f431f9191f8cd5e",
+      "imported": "observation actions and proposed visual selections only; confirmations require new conversation review",
+      "ground_truth_read": false
+    },
+    "actual_conversation_image_review": true,
+    "recorded_actions": 61,
+    "timeline_steps_including_evaluation": 62,
+    "review_outcomes": {
+      "support": 10,
+      "unobservable": 5
+    },
+    "new_camera": {
+      "azimuth_deg": 35,
+      "elevation_deg": -25
+    },
+    "labels_identical_to_baseline": true,
+    "baseline_actions_unchanged": true,
+    "blind_discovery": false,
+    "equal_observation_budget_comparison": false,
+    "quality_improvement_demonstrated": false
+  },
+  "evaluation_after_freeze": {
+    "tp": 7924,
+    "fp": 26,
+    "fn": 570,
+    "precision_pct": 99.67295597484276,
+    "recall_pct": 93.28938073934542,
+    "gt_points": 8494,
+    "predicted_points": 7950,
+    "ignored_predicted_points": 0
+  },
+  "ground_truth_access": {
+    "during_visual_actions": false,
+    "after_freeze_independent_evaluation": true
+  },
+  "observation_acceptance": {
+    "protocol": "context_v1",
+    "unresolved_questions": [
+      "connection_1",
+      "connection_2",
+      "connection_3",
+      "connection_4",
+      "connection_5"
+    ],
+    "raw_scene_survey_completed": true,
+    "completeness": "NOT_VERIFIED",
+    "unknown_points_are_not_background": true
+  },
+  "annotation_sha256": "3f397c031c491c3abdd16ad85ca55b124e44d5e27d6dc4cb0f431f9191f8cd5e",
+  "full_scene_baseline": {
+    "run": "t1z5b_full_conversation_refined",
+    "unchanged": true,
+    "annotation_sha256": "f8f802ee2d2d78730c39eefb68c81319a6e50a8554f5d78b5e0cd74213116437",
+    "main_wire_points": 233548,
+    "known_unresolved_intervals": 15
+  },
+  "validation": {
+    "protocol_tests": {
+      "command": "OPENBLAS_NUM_THREADS=4 /workspace/spatial_token_env/bin/python -m pytest -q test_visual_annotation_v3.py test_visual_annotation_demo.py test_visual_annotation_context.py",
+      "passed": 28,
+      "failed": 0,
+      "elapsed_seconds": 4.57,
+      "scope": "protocol and executor regressions, not independent annotation quality"
+    },
+    "real_action_replay": {
+      "actions_replayed": 61,
+      "point_labels_identical": true,
+      "source": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/conversation_context_review_20261011",
+      "destination": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/replay_context_review_20261011",
+      "ground_truth_read": false,
+      "model_invoked": false,
+      "meaning": "executor replay of saved visual decisions, not an autonomous model repeat"
+    },
+    "legacy_action_replay": {
+      "actions_replayed": 33,
+      "point_labels_identical": true,
+      "source": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/conversation_tower_attachment_20261011",
+      "destination": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/replay_legacy_compat_20261011",
+      "ground_truth_read": false,
+      "model_invoked": false,
+      "meaning": "executor replay of saved visual decisions, not an autonomous model repeat"
+    },
+    "las_readback": {
+      "file": "annotated_scene.las",
+      "sha256": "800481f2602141cbafb7b860ad393202865726ef2b0e7178d758a78e6de53f4e",
+      "points": 1629923,
+      "readback_verified": true,
+      "max_coordinate_error_m": 9.313225746154785e-10,
+      "selected_only": false,
+      "authoritative_fields": [
+        "source_record_id",
+        "vlm_instance_id",
+        "vlm_confirmed"
+      ],
+      "zero_instance_means": "unconfirmed, including unknown; not a certified background label",
+      "classification_field": "left unclassified; cable subclasses were not visually assigned",
+      "instance_names": {
+        "1": "wire_1",
+        "2": "wire_2",
+        "3": "wire_3",
+        "4": "wire_4",
+        "5": "wire_5"
+      }
+    },
+    "browser_checks": {
+      "browser_checks.json": 10,
+      "overview_checks.json": 9,
+      "overview_offline_checks.json": 10,
+      "context_checks.json": 7,
+      "context_offline_checks.json": 8
+    },
+    "browser_errors": []
+  },
+  "limits": [
+    "P/R is unchanged because candidate point sets were held fixed; no recall gain demonstrated",
+    "five local connection hypotheses remain deferred; visibility gates do not certify every point or segment",
+    "raw-scene survey is an observer record, not an independent completeness test",
+    "instance identity, length coverage, held-out generalization and autonomous model repeatability are not validated",
+    "real scene patch quality is not evaluated; bounded correction mechanics were validated on synthetic fixtures"
+  ],
+  "source_manifest": "source_manifest.json",
+  "captured_at_utc": "2026-10-11T15:45:10.226484+00:00"
+}

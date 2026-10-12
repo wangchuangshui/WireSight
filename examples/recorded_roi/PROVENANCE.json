@@ -1,0 +1,11 @@
+{
+  "dataset": "GridNet-HD",
+  "zone": "t1z5b",
+  "scope": "Y offset [30,60) metres",
+  "geometry_sha256": "5219ef1dd927ffb7dff22df0220def5273a48ccdf2f0a7ec767c3117d673e31d",
+  "annotation_sha256": "e4ba097d0297ce8117d6556743e14006c2a38528a2e3e164e780c504e8520699",
+  "actions_sha256": "e6cb080b3034cbc7c698cf4ff9995f869cf1a134c6170549baa0cda18056e197",
+  "state_sha256": "7565499ab6b4f0d254cf938e0c9eabb14a511eefe61ff24ccc15b86f334621b2",
+  "metadata_change": "source_las made portable; recorded path prefixes added for replay; arrays/actions/state copied byte-for-byte",
+  "mode": "recorded_conversation; executor replay; no model invocation"
+}

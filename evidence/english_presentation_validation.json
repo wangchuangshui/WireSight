@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": {
+    "english_primary_landing": true,
+    "self_contained_english_3d": true,
+    "all_nine_english_film_scenes": true
+  },
+  "browser_errors": [],
+  "external_network_requests": []
+}

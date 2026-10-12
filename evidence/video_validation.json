@@ -1,0 +1,19 @@
+{
+  "captured_real_evidence_and_point_renderer": true,
+  "model_invoked_for_annotation": false,
+  "synthetic_narration": true,
+  "voice_source": "Piper en_US lessac high, locally synthesized documentary narration",
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "width": 1600,
+  "height": 900,
+  "duration_seconds": 94.0,
+  "rendered_frames": 1128,
+  "rendered_camera_fps": 12,
+  "unique_screenshots": 305,
+  "browser_errors": [],
+  "bytes": 6285664,
+  "sha256": "f5f82970b11f45354c0adf232bee0e1b10540773d73478c6bfe46bdf27db8f1e",
+  "caption_timing": "deterministic scene boundaries; exact voiced segments with silence padding",
+  "point_labels_modified": false
+}

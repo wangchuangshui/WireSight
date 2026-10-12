@@ -1,0 +1,22 @@
+{
+  "built_utc": "2026-10-12T03:27:07.574274+00:00",
+  "runtime_sources": {
+    "__init__.py": "1cbe5264f351f1a7496c5f5b3dc851398c806b36bce5b1da412ccbdcac979668",
+    "scene.py": "857c8fd9df8d3b717d464d19c6b3e35805af09d6dc22506b44b4f8653a7e69c5",
+    "observation.py": "d195fbe6d088ce1b28d2cdad12c32ff6ae15fa16c1b4bea8cf3261d4fbf60935",
+    "session.py": "f61304f122b82b251ebba5a0373c9e16313a66532346e3609d33f6f7da17aa0b",
+    "evaluate.py": "055c8e60dd9adad70fdec19f6f4e74120f2c5929800d5ad27e5f3ac16c5fd908",
+    "artifacts.py": "bd1eb33ccc3e5486d353c58feb6024e2338482397eeb7326444cb05401bc9ac9",
+    "replay.py": "0064882441528c9b9ab80416a945f28e18db8ed02260d5fe4b049f6a796a79a1",
+    "compose.py": "774f95489f1cd2f0a46b26740f3c5a6aa87735dc8e4b1451fc0e9a5875b6f54e",
+    "extend.py": "3211d4331153fb5267917094b988d868aa7ffe898d7e3981420771ee04ddf04a",
+    "review_protocol.py": "a4aeb716f2137797ac147ac98136d4f03ae45bb1260a87e4a1e358f02ffae224",
+    "revision.py": "eaed8be0e2d3c0bfdfdbdd896184478ca0439082b10e03268e6a51df7f7e3f59"
+  },
+  "release_changes": [
+    "replay.py: accepts recorded_path_prefixes for relocated fixtures",
+    "tests: omit unrelated V2-specific tests",
+    "presentation: new guided overview; frozen annotations unchanged"
+  ],
+  "historical_annotation_sha256": "f8f802ee2d2d78730c39eefb68c81319a6e50a8554f5d78b5e0cd74213116437"
+}

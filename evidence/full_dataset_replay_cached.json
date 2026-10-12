@@ -1,0 +1,32 @@
+{
+  "scope": "full",
+  "sessions": [
+    {
+      "session": "t1z5b_full_session",
+      "actions_replayed": 38,
+      "reference_annotation_sha256_match": true
+    },
+    {
+      "session": "tower_mid_refinement",
+      "actions_replayed": 11,
+      "reference_annotation_sha256_match": true
+    },
+    {
+      "session": "tower_far_refinement",
+      "actions_replayed": 17,
+      "reference_annotation_sha256_match": true
+    },
+    {
+      "session": "conversation_tower_attachment_20261011",
+      "actions_replayed": 33,
+      "reference_annotation_sha256_match": true
+    }
+  ],
+  "point_labels_identical": true,
+  "model_invoked": false,
+  "ground_truth_read": false,
+  "final_run": "full_conversation_refined",
+  "meaning": "Re-executed saved visual decisions; not a model perception repeat",
+  "geometry_preparation": "verified historical geometry cache; SHA256 required to match every source ROI",
+  "total_actions_replayed": 99
+}

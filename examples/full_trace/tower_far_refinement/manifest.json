@@ -1,0 +1,20 @@
+{
+  "run": "tower_far_refinement",
+  "roi_y_offset_m": [
+    640,
+    670
+  ],
+  "protocol": "legacy_v0",
+  "geometry_sha256": "192cfd117fb9251bd03f75087d676bfbf9dff5651bfe9728dda6bea784ef4202",
+  "reference_annotation_sha256": "a3c7fe52f35e341f2ad0cc4004ab56199bd404470504cd90035a475c9513efea",
+  "recorded_path_prefixes": [
+    "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/tower_far_refinement",
+    "visual_annotation_v3/runs/tower_far_refinement"
+  ],
+  "actions_sha256": "4a84fc6622f146360c5b2d4eaa240165c878081acc81ca859517b2d214b01132",
+  "action_count": 17,
+  "geometry_member_sha256": {
+    "coords.npy": "ee363c9207cdc17ffe43309e8720d4d5285a36ead19038f7987a6eeff0e9b019",
+    "record_ids.npy": "2e0cdca6b428dc8a4b05914ff80cf9d8138e00cd08d00c1b08c26402d627c084"
+  }
+}

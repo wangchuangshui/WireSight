@@ -1,0 +1,11 @@
+{
+  "/": 200,
+  "/demo/": 200,
+  "/media/wiresight-demo.mp4": 200,
+  "http_range_prefix_suffix_middle": true,
+  "invalid_range_416": true,
+  "model_launch_disabled": true,
+  "mp4_browser_play_and_seek": true,
+  "video_duration": 94,
+  "browser_errors": []
+}

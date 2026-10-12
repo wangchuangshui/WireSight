@@ -1,0 +1,730 @@
+{
+  "status": "FROZEN_DEVELOPMENT_EXPERIMENT_ACCEPTED_NOT_PROMOTED",
+  "observer": "conversation_vlm",
+  "local_qwen_used": false,
+  "point_model_used": false,
+  "automatic_geometric_tracing_used": false,
+  "actual_conversation_image_review": true,
+  "ground_truth_point_ids_read_during_visual_actions": false,
+  "taxonomy_metadata_read": true,
+  "taxonomy_source": {
+    "path": "/workspace/pointnext_repro/full_scene/labels.py",
+    "sha256": "1262f83d41eafa02e30b0a7870b3980ea86ab2005fe7a5873b1cc5023b5c14f4"
+  },
+  "ground_truth_read_after_freeze": true,
+  "source_metrics_previously_known": true,
+  "candidate_reuse": {
+    "source_run": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/conversation_connection_revision_20261011",
+    "source_annotation_sha256": "7449e24e72f699274940413db44bb048dfce334c7aae1d32a378bbeb30cbc78f",
+    "source_actions_sha256": "4720bc8a1e7f4a280b8265ad4486660578571d486ba9cd3ce9d238ef410359fc",
+    "candidate_parameters": {
+      "1": {
+        "selections": [
+          {
+            "view_id": "wire1_contact_readable",
+            "type": "polyline",
+            "coordinates": [
+              [
+                0,
+                840
+              ],
+              [
+                145,
+                710
+              ],
+              [
+                285,
+                601
+              ],
+              [
+                395,
+                550
+              ],
+              [
+                525,
+                520
+              ],
+              [
+                710,
+                471
+              ],
+              [
+                875,
+                448
+              ],
+              [
+                1000,
+                399
+              ]
+            ],
+            "radius": 25
+          },
+          {
+            "view_id": "wire1_reverse_contact",
+            "type": "polyline",
+            "coordinates": [
+              [
+                0,
+                377
+              ],
+              [
+                200,
+                392
+              ],
+              [
+                365,
+                428
+              ],
+              [
+                470,
+                465
+              ],
+              [
+                585,
+                517
+              ],
+              [
+                750,
+                583
+              ],
+              [
+                900,
+                671
+              ],
+              [
+                1000,
+                735
+              ]
+            ],
+            "radius": 25
+          }
+        ],
+        "exclude": [],
+        "point_sha256": "b447bd574e8e44bd5313a2de8e67814c5b551441c4e1f63dc120e1272969cecc",
+        "points": 149,
+        "source_candidate": "contact_1_v1"
+      },
+      "2": {
+        "selections": [
+          {
+            "view_id": "wire2_contact_readable",
+            "type": "polyline",
+            "coordinates": [
+              [
+                0,
+                823
+              ],
+              [
+                180,
+                710
+              ],
+              [
+                342,
+                606
+              ],
+              [
+                440,
+                555
+              ],
+              [
+                520,
+                514
+              ],
+              [
+                640,
+                475
+              ],
+              [
+                820,
+                420
+              ],
+              [
+                1000,
+                380
+              ]
+            ],
+            "radius": 25
+          },
+          {
+            "view_id": "wire2_reverse_contact",
+            "type": "polyline",
+            "coordinates": [
+              [
+                0,
+                326
+              ],
+              [
+                185,
+                372
+              ],
+              [
+                365,
+                422
+              ],
+              [
+                485,
+                449
+              ],
+              [
+                565,
+                493
+              ],
+              [
+                690,
+                549
+              ],
+              [
+                840,
+                624
+              ],
+              [
+                1000,
+                688
+              ]
+            ],
+            "radius": 25
+          }
+        ],
+        "exclude": [],
+        "point_sha256": "e86d8a3e80d25ac809d6665b8f3ea27ed7aa58da3018bef540f4485a4f0d5787",
+        "points": 158,
+        "source_candidate": "contact_2_v2"
+      },
+      "3": {
+        "selections": [
+          {
+            "view_id": "wire3_contact_readable",
+            "type": "polyline",
+            "coordinates": [
+              [
+                100,
+                855
+              ],
+              [
+                210,
+                754
+              ],
+              [
+                330,
+                666
+              ],
+              [
+                420,
+                607
+              ],
+              [
+                515,
+                583
+              ],
+              [
+                710,
+                533
+              ],
+              [
+                860,
+                491
+              ],
+              [
+                970,
+                461
+              ]
+            ],
+            "radius": 25
+          },
+          {
+            "view_id": "wire3_reverse_contact",
+            "type": "polyline",
+            "coordinates": [
+              [
+                0,
+                300
+              ],
+              [
+                160,
+                337
+              ],
+              [
+                310,
+                375
+              ],
+              [
+                440,
+                414
+              ],
+              [
+                530,
+                444
+              ],
+              [
+                650,
+                492
+              ],
+              [
+                800,
+                568
+              ],
+              [
+                1000,
+                656
+              ]
+            ],
+            "radius": 25
+          }
+        ],
+        "exclude": [],
+        "point_sha256": "39cd3d8e0751a5ff3608fc8325164df81dcc98894f4308c01b303bdc332679fe",
+        "points": 84,
+        "source_candidate": "contact_3_v1"
+      },
+      "4": {
+        "selections": [
+          {
+            "view_id": "wire4_contact_readable",
+            "type": "polyline",
+            "coordinates": [
+              [
+                0,
+                742
+              ],
+              [
+                160,
+                643
+              ],
+              [
+                305,
+                546
+              ],
+              [
+                420,
+                478
+              ],
+              [
+                515,
+                435
+              ],
+              [
+                680,
+                397
+              ],
+              [
+                840,
+                351
+              ],
+              [
+                1000,
+                292
+              ]
+            ],
+            "radius": 25
+          },
+          {
+            "view_id": "wire4_reverse_contact",
+            "type": "polyline",
+            "coordinates": [
+              [
+                0,
+                344
+              ],
+              [
+                200,
+                390
+              ],
+              [
+                370,
+                427
+              ],
+              [
+                495,
+                456
+              ],
+              [
+                560,
+                479
+              ],
+              [
+                700,
+                557
+              ],
+              [
+                860,
+                628
+              ],
+              [
+                1000,
+                700
+              ]
+            ],
+            "radius": 25
+          }
+        ],
+        "exclude": [],
+        "point_sha256": "d8aaa8a8675efca8717fff4b3efe8e1c7e065e5550d14b8284d2ccec497c1109",
+        "points": 158,
+        "source_candidate": "contact_4_v2"
+      },
+      "5": {
+        "selections": [
+          {
+            "view_id": "wire5_contact_readable",
+            "type": "polyline",
+            "coordinates": [
+              [
+                0,
+                879
+              ],
+              [
+                170,
+                729
+              ],
+              [
+                320,
+                613
+              ],
+              [
+                460,
+                522
+              ],
+              [
+                530,
+                500
+              ],
+              [
+                665,
+                467
+              ],
+              [
+                830,
+                425
+              ],
+              [
+                1000,
+                395
+              ]
+            ],
+            "radius": 25
+          },
+          {
+            "view_id": "wire5_reverse_lower",
+            "type": "polyline",
+            "coordinates": [
+              [
+                0,
+                350
+              ],
+              [
+                160,
+                362
+              ],
+              [
+                300,
+                389
+              ],
+              [
+                430,
+                411
+              ],
+              [
+                500,
+                440
+              ],
+              [
+                650,
+                520
+              ],
+              [
+                800,
+                610
+              ],
+              [
+                1000,
+                775
+              ]
+            ],
+            "radius": 25
+          }
+        ],
+        "exclude": [],
+        "point_sha256": "00d8493dbb6281de1d5fdaca9e965d6dac245c82f9363321e9c6a5bf30f83150",
+        "points": 185,
+        "source_candidate": "contact_5_v2"
+      }
+    },
+    "reconstructed_raw_views": [
+      "upper_contacts",
+      "lower_contacts",
+      "wire4_oblique_contact",
+      "wire2_oblique_contact",
+      "wire1_oblique_contact",
+      "wire3_oblique_contact",
+      "wire5_oblique_contact",
+      "wire1_contact_readable",
+      "wire2_contact_readable",
+      "wire3_contact_readable",
+      "wire4_contact_readable",
+      "wire5_contact_readable",
+      "reverse_oblique",
+      "reverse_head",
+      "wire1_reverse_contact",
+      "wire2_reverse_contact",
+      "wire3_reverse_contact",
+      "wire4_reverse_contact",
+      "wire5_reverse_contact",
+      "lateral_oblique",
+      "lateral_upward",
+      "wire5_reverse_lower"
+    ],
+    "truth_point_ids_imported": false,
+    "old_reviews_imported": false,
+    "source_metrics_previously_known": true,
+    "acceptance_rule_recorded_before_evaluation": "same denominator, precision non-decreasing and recall strictly increasing",
+    "new_context_display": "at least two-pixel point radius; camera, geometry and proposed point sets preserved"
+  },
+  "recorded_actions": 76,
+  "timeline_steps": 77,
+  "whole_candidate_review_outcomes": {
+    "support": 16
+  },
+  "addition_review_outcomes": {
+    "support": 5,
+    "unobservable": 8,
+    "contradict": 3
+  },
+  "annotation_sha256": "3b6ee81b79ef024240b5823a2ba000a74a7285d14b0f0b9e1e691900fb817d70",
+  "quality_comparison": {
+    "status": "FROZEN_DEVELOPMENT_EXPERIMENT",
+    "base_run": "conversation_context_review_20261011",
+    "annotation_sha256": "3b6ee81b79ef024240b5823a2ba000a74a7285d14b0f0b9e1e691900fb817d70",
+    "base_annotation_sha256": "3f397c031c491c3abdd16ad85ca55b124e44d5e27d6dc4cb0f431f9191f8cd5e",
+    "before": {
+      "tp": 7924,
+      "fp": 26,
+      "fn": 570,
+      "precision_pct": 99.67295597484276,
+      "recall_pct": 93.28938073934542,
+      "gt_points": 8494,
+      "predicted_points": 7950,
+      "ignored_predicted_points": 0,
+      "f1_pct": 96.3755777183167
+    },
+    "after": {
+      "tp": 7983,
+      "fp": 26,
+      "fn": 511,
+      "precision_pct": 99.6753652141341,
+      "recall_pct": 93.98398869790441,
+      "gt_points": 8494,
+      "predicted_points": 8009,
+      "ignored_predicted_points": 0,
+      "f1_pct": 96.74604617342301
+    },
+    "delta": {
+      "precision_pct": 0.0024092392913388494,
+      "recall_pct": 0.6946079585589899,
+      "f1_pct": 0.3704684551063053,
+      "tp": 59,
+      "fp": 0,
+      "fn": -59
+    },
+    "instances": [
+      {
+        "instance": "wire_1",
+        "before": 1526,
+        "after": 1565,
+        "added": 39,
+        "added_tp": 39,
+        "added_fp": 0,
+        "added_ignored": 0,
+        "added_precision_pct": 100.0
+      },
+      {
+        "instance": "wire_2",
+        "before": 1823,
+        "after": 1823,
+        "added": 0,
+        "added_tp": 0,
+        "added_fp": 0,
+        "added_ignored": 0,
+        "added_precision_pct": null
+      },
+      {
+        "instance": "wire_3",
+        "before": 1408,
+        "after": 1428,
+        "added": 20,
+        "added_tp": 20,
+        "added_fp": 0,
+        "added_ignored": 0,
+        "added_precision_pct": 100.0
+      },
+      {
+        "instance": "wire_4",
+        "before": 1699,
+        "after": 1699,
+        "added": 0,
+        "added_tp": 0,
+        "added_fp": 0,
+        "added_ignored": 0,
+        "added_precision_pct": null
+      },
+      {
+        "instance": "wire_5",
+        "before": 1494,
+        "after": 1494,
+        "added": 0,
+        "added_tp": 0,
+        "added_fp": 0,
+        "added_ignored": 0,
+        "added_precision_pct": null
+      }
+    ],
+    "added_points": 59,
+    "added_tp": 59,
+    "added_fp": 0,
+    "added_precision_pct": 100.0,
+    "old_labels_retained": true,
+    "removed_points": 0,
+    "quality_gain_accepted": true,
+    "promoted_to_full_baseline": false,
+    "improvement_rule": "same denominator, precision non-decreasing and recall strictly increasing",
+    "decision": "本开发区段精度未下降且召回提升；尚未合入全场景基线。",
+    "ground_truth_access": "aggregate diagnostics after freezing; no labels edited after evaluation",
+    "limits": [
+      "已知开发区段100–110米，不是独立留出测试",
+      "实例身份与整条线完整性仍未独立验收",
+      "不同视角的整段支持不能证明所选区域内每个点的类别"
+    ],
+    "created_at_utc": "2026-10-11T16:41:47.632223+00:00"
+  },
+  "observation_acceptance": {
+    "protocol": "context_v1",
+    "unresolved_questions": [
+      "connection_1",
+      "connection_2",
+      "connection_3",
+      "connection_4",
+      "connection_5",
+      "delta_contact_2",
+      "delta_contact_4",
+      "delta_contact_5"
+    ],
+    "raw_scene_survey_completed": true,
+    "completeness": "NOT_VERIFIED",
+    "unknown_points_are_not_background": true
+  },
+  "historical_unknown_records": 9,
+  "replay": {
+    "actions_replayed": 76,
+    "point_labels_identical": true,
+    "source": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/conversation_delta_review_20261011",
+    "destination": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/replay_delta_review_20261011",
+    "ground_truth_read": false,
+    "model_invoked": false,
+    "meaning": "executor replay of saved visual decisions, not an autonomous model repeat"
+  },
+  "legacy_replay": {
+    "actions_replayed": 67,
+    "point_labels_identical": true,
+    "source": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/conversation_connection_revision_20261011",
+    "destination": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/replay_history_delta_compat_20261011",
+    "ground_truth_read": false,
+    "model_invoked": false,
+    "meaning": "executor replay of saved visual decisions, not an autonomous model repeat"
+  },
+  "tests": {
+    "passed": 33,
+    "command": "python -m pytest -q test_visual_annotation_context.py test_visual_annotation_v3.py test_visual_annotation_demo.py"
+  },
+  "las_readback": {
+    "file": "annotated_scene.las",
+    "sha256": "91fa7787ef41e57a25ff6227592b905f58220e6d892e98d87747ae86870beee3",
+    "points": 1629923,
+    "readback_verified": true,
+    "max_coordinate_error_m": 9.313225746154785e-10,
+    "selected_only": false,
+    "authoritative_fields": [
+      "source_record_id",
+      "vlm_instance_id",
+      "vlm_confirmed"
+    ],
+    "zero_instance_means": "unconfirmed, including unknown; not a certified background label",
+    "classification_field": "left unclassified; cable subclasses were not visually assigned",
+    "instance_names": {
+      "1": "wire_1",
+      "2": "wire_2",
+      "3": "wire_3",
+      "4": "wire_4",
+      "5": "wire_5"
+    }
+  },
+  "full_baseline_unchanged": true,
+  "historical_archive": {
+    "archive": "/workspace/pointnext_repro/paper_v1/historical_archives/visual_annotation_v3_history_20261011T162307Z.zip",
+    "report": "/workspace/pointnext_repro/paper_v1/historical_archives/visual_annotation_v3_history_20261011T162307Z.json"
+  },
+  "limits": [
+    "已知开发区段，旧候选和指标已知，不是盲测或等预算对照。",
+    "第三视角导航仅使用既有候选的投影位置，未过滤邻域或改动候选集合。",
+    "基线误选26点没有按真值回删；未决目标继续计入漏检。",
+    "点级语义指标不证明实例对应、连接完整或长度覆盖。",
+    "尚未合入全场景，尚未通过跨场景团队生产验收。"
+  ],
+  "completed_at_utc": "2026-10-11T16:46:00.550428+00:00",
+  "browser_checks": {
+    "delta_checks.json": {
+      "checks": [
+        "starts at frozen baseline; inherited unknown history and locked metrics retained",
+        "16 reviews show raw, retained and delta images with actual delta verdicts; reviews never add points",
+        "only two approved patches change labels; extra third-direction evidence is preserved",
+        "eight unresolved questions and nine historical unknown records remain distinct",
+        "final P/R, marginal correctness, before/after boards and development-only decision are visible",
+        "three-image reviews and final comparison fit a 390px viewport"
+      ],
+      "page_errors": [],
+      "failed_requests": [],
+      "offline": false,
+      "model_invoked": false,
+      "model_quality_test": false
+    },
+    "delta_offline_checks.json": {
+      "checks": [
+        "starts at frozen baseline; inherited unknown history and locked metrics retained",
+        "16 reviews show raw, retained and delta images with actual delta verdicts; reviews never add points",
+        "only two approved patches change labels; extra third-direction evidence is preserved",
+        "eight unresolved questions and nine historical unknown records remain distinct",
+        "final P/R, marginal correctness, before/after boards and development-only decision are visible",
+        "three-image reviews and final comparison fit a 390px viewport",
+        "offline evidence playback needs no remote requests"
+      ],
+      "page_errors": [],
+      "failed_requests": [],
+      "offline": true,
+      "model_invoked": false,
+      "model_quality_test": false
+    },
+    "revision_checks.json": {
+      "checks": [
+        "revision starts from 7950 frozen points and five unresolved records; no false first-step gain or early metrics",
+        "all ten recorded reviews show original context and reviewed overlay without changing point counts",
+        "four patch commits preserve the actual reviewed images and exact incremental counts",
+        "withdrawn candidates were not submitted and six unresolved questions remain disclosed",
+        "old and new P/R, F1, marginal precision and regression decision are visible despite the old gate passing",
+        "evaluation shows full-size front/reverse five-wire before-and-after comparison boards",
+        "revision comparison fits a 390px mobile viewport"
+      ],
+      "page_errors": [],
+      "failed_requests": [],
+      "offline": false,
+      "model_invoked": false,
+      "model_quality_test": false
+    }
+  },
+  "public_endpoint": {
+    "url": "http://76.71.171.67:43956/?run=conversation_delta_review_20261011",
+    "http_status": 200,
+    "api_http_status": 200,
+    "token_auth": true
+  },
+  "source_manifest": "source_manifest.json",
+  "offline_demo_package": "demo_conversation.zip",
+  "offline_demo_checksum": "demo_conversation.zip.sha256"
+}

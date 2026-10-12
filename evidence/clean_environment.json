@@ -1,0 +1,10 @@
+{
+  "numpy": "2.5.4",
+  "Pillow": "12.3.0",
+  "laspy": "2.7.0",
+  "pytest": "9.1.1",
+  "wiresight": "0.2.0",
+  "python": "3.12.14 (main, Sep  2 2026, 23:27:36) [GCC 15.3.0]",
+  "separate_venv": true,
+  "installed_from_release": "0.2.0"
+}

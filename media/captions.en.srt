@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:09,000
+Nearly sixty million original points. How can a vision language model annotate a three dimensional scene through observation? Meet WireSight.
+
+2
+00:00:09,000 --> 00:00:20,000
+Start with a top down height view. Position and elevation become visual evidence. The observer identifies five elongated traces and specifies their paths in the image.
+
+3
+00:00:20,000 --> 00:00:30,000
+A top view separates the wires. A side view reveals sag and supports. The observer requests the perspectives needed to resolve its spatial questions.
+
+4
+00:00:30,000 --> 00:00:41,000
+Visual decisions become explicit image regions. The executor retains depth and original record IDs, and maps multiview selections back to three dimensional points.
+
+5
+00:00:41,000 --> 00:00:51,000
+Candidates are reviewed before they are committed. In this recorded example, the second view is ambiguous. The observer retracts the pending additions.
+
+6
+00:00:51,000 --> 00:01:00,000
+The frozen result contains five main wires and two transverse cables. Every annotated point is retained, with gaps preserved.
+
+7
+00:01:00,000 --> 00:01:10,000
+On this development scene, precision is about ninety nine point nine nine percent, and recall is ninety seven point three eight. Unconfirmed targets still count as misses.
+
+8
+00:01:10,000 --> 00:01:22,000
+The idea is a visual interface for three dimensional annotation. Reuse existing visual understanding, let questions guide observation, and keep original point execution auditable.
+
+9
+00:01:22,000 --> 00:01:34,000
+The release includes a demo, real geometry, frozen labels, recorded actions, and replay tools. Inspect the evidence, reproduce the result, and build on the interface.

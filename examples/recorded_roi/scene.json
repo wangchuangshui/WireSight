@@ -1,0 +1,39 @@
+{
+  "source_las": "DATASET_ROOT/t1z5b/lidar/t1z5b.las",
+  "source_size": 2265716708,
+  "source_mtime_ns": 1790394911244771887,
+  "scene_total_points": 59624089,
+  "scene_bounds": [
+    [
+      383098.24143636425,
+      5099626.82948783,
+      1862.711390933281
+    ],
+    [
+      383248.22963636427,
+      5100397.02908783,
+      1912.7941909332812
+    ]
+  ],
+  "roi_y_offset": [
+    30.0,
+    60.0
+  ],
+  "roi_y_absolute": [
+    5099656.82948783,
+    5099686.82948783
+  ],
+  "roi_boundary": "left inclusive, right exclusive",
+  "roi_points": 867479,
+  "geometry_sha256": "5219ef1dd927ffb7dff22df0220def5273a48ccdf2f0a7ec767c3117d673e31d",
+  "allowed_fields": [
+    "coords",
+    "record_ids"
+  ],
+  "labels_in_geometry": false,
+  "task": "power-line conductor and structural cable point annotation; separate instances where observed",
+  "recorded_path_prefixes": [
+    "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_30_60_session",
+    "visual_annotation_v3/runs/t1z5b_30_60_session"
+  ]
+}

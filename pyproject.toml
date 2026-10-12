@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wiresight"
+version = "0.2.0"
+description = "Auditable multiview visual wire annotation with original-record point mapping"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "Pillow>=10,<13", "laspy>=2.5,<3"]
+
+[tool.setuptools.packages.find]
+include = ["visual_annotation_v3*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]

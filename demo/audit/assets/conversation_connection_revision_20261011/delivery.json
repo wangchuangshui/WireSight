@@ -1,0 +1,265 @@
+{
+  "status": "FROZEN_DEVELOPMENT_EXPERIMENT_NOT_PROMOTED",
+  "observer": "conversation_vlm",
+  "local_qwen_used": false,
+  "point_model_used": false,
+  "automatic_geometric_tracing_used": false,
+  "actual_conversation_image_review": true,
+  "ground_truth_read_during_visual_actions": false,
+  "ground_truth_read_after_freeze": true,
+  "recorded_actions": 67,
+  "timeline_steps": 68,
+  "review_outcomes": {
+    "support": 9,
+    "unobservable": 1
+  },
+  "annotation_sha256": "7449e24e72f699274940413db44bb048dfce334c7aae1d32a378bbeb30cbc78f",
+  "quality_comparison": {
+    "status": "FROZEN_DEVELOPMENT_EXPERIMENT",
+    "base_run": "conversation_context_review_20261011",
+    "annotation_sha256": "7449e24e72f699274940413db44bb048dfce334c7aae1d32a378bbeb30cbc78f",
+    "base_annotation_sha256": "3f397c031c491c3abdd16ad85ca55b124e44d5e27d6dc4cb0f431f9191f8cd5e",
+    "before": {
+      "tp": 7924,
+      "fp": 26,
+      "fn": 570,
+      "precision_pct": 99.67295597484276,
+      "recall_pct": 93.28938073934542,
+      "gt_points": 8494,
+      "predicted_points": 7950,
+      "ignored_predicted_points": 0,
+      "f1_pct": 96.3755777183167
+    },
+    "after": {
+      "tp": 8016,
+      "fp": 127,
+      "fn": 478,
+      "precision_pct": 98.44037823897827,
+      "recall_pct": 94.37249823404757,
+      "gt_points": 8494,
+      "predicted_points": 8143,
+      "ignored_predicted_points": 0,
+      "f1_pct": 96.3635270781992
+    },
+    "delta": {
+      "precision_pct": -1.2325777358644956,
+      "recall_pct": 1.083117494702151,
+      "f1_pct": -0.012050640117507783,
+      "tp": 92,
+      "fp": 101,
+      "fn": -92
+    },
+    "instances": [
+      {
+        "instance": "wire_1",
+        "before": 1526,
+        "after": 1565,
+        "added": 39,
+        "added_tp": 39,
+        "added_fp": 0,
+        "added_ignored": 0,
+        "added_precision_pct": 100.0
+      },
+      {
+        "instance": "wire_2",
+        "before": 1823,
+        "after": 1860,
+        "added": 37,
+        "added_tp": 1,
+        "added_fp": 36,
+        "added_ignored": 0,
+        "added_precision_pct": 2.7027027027027026
+      },
+      {
+        "instance": "wire_3",
+        "before": 1408,
+        "after": 1408,
+        "added": 0,
+        "added_tp": 0,
+        "added_fp": 0,
+        "added_ignored": 0,
+        "added_precision_pct": null
+      },
+      {
+        "instance": "wire_4",
+        "before": 1699,
+        "after": 1760,
+        "added": 61,
+        "added_tp": 1,
+        "added_fp": 60,
+        "added_ignored": 0,
+        "added_precision_pct": 1.639344262295082
+      },
+      {
+        "instance": "wire_5",
+        "before": 1494,
+        "after": 1550,
+        "added": 56,
+        "added_tp": 51,
+        "added_fp": 5,
+        "added_ignored": 0,
+        "added_precision_pct": 91.07142857142857
+      }
+    ],
+    "added_points": 193,
+    "added_tp": 92,
+    "added_fp": 101,
+    "added_precision_pct": 47.66839378238342,
+    "old_labels_retained": true,
+    "removed_points": 0,
+    "quality_gain_accepted": false,
+    "promoted_to_full_baseline": false,
+    "decision": "召回提高但精度下降，未替换基线。原有 P≥98%、R≥90% 门槛通过不等于优化成功。",
+    "ground_truth_access": "aggregate diagnostics after freezing; no labels edited after evaluation",
+    "limits": [
+      "已知开发区段100–110米，不是独立留出测试",
+      "实例身份与整条线完整性仍未独立验收",
+      "不同视角的整段支持不能证明所选区域内每个点的类别"
+    ],
+    "created_at_utc": "2026-10-11T16:05:56.065013+00:00"
+  },
+  "observation_acceptance": {
+    "protocol": "context_v1",
+    "unresolved_questions": [
+      "add_visible_contact_3",
+      "connection_1",
+      "connection_2",
+      "connection_3",
+      "connection_4",
+      "connection_5"
+    ],
+    "raw_scene_survey_completed": true,
+    "completeness": "NOT_VERIFIED",
+    "unknown_points_are_not_background": true
+  },
+  "replay": {
+    "actions_replayed": 67,
+    "point_labels_identical": true,
+    "source": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/conversation_connection_revision_20261011",
+    "destination": "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/replay_connection_revision_20261011",
+    "ground_truth_read": false,
+    "model_invoked": false,
+    "meaning": "executor replay of saved visual decisions, not an autonomous model repeat"
+  },
+  "las_readback": {
+    "file": "annotated_scene.las",
+    "sha256": "ec8dad87482dcc42f8a215da2671183124307e4084d1c7e123fc1f59b2b38d94",
+    "points": 1629923,
+    "readback_verified": true,
+    "max_coordinate_error_m": 9.313225746154785e-10,
+    "selected_only": false,
+    "authoritative_fields": [
+      "source_record_id",
+      "vlm_instance_id",
+      "vlm_confirmed"
+    ],
+    "zero_instance_means": "unconfirmed, including unknown; not a certified background label",
+    "classification_field": "left unclassified; cable subclasses were not visually assigned",
+    "instance_names": {
+      "1": "wire_1",
+      "2": "wire_2",
+      "3": "wire_3",
+      "4": "wire_4",
+      "5": "wire_5"
+    }
+  },
+  "full_baseline_unchanged": true,
+  "validation_status": "protocol, replay, LAS readback and live/offline browser checks passed; annotation quality gain rejected",
+  "findings": [
+    "四次实际补标新增193点，其中92正确、101误选；不能认定整体优化成功。",
+    "2号与4号补标共98点，只有2点正确；1号39点全部正确，5号56点中51点正确。",
+    "代码确认：提交门槛统计整个候选的可见点数，既有正确点可以满足双视角支持；尚未单独审查新增部分。",
+    "图像与统计提示塔线连接处的类别边界判断失误；具体非目标构件语义未独立确认。"
+  ],
+  "next_experiment": [
+    "为新增部分单独生成原图/既有点/新增点三栏证据，不能沿用整段支持。",
+    "明确区分形状连通关系与导线类别边界；观察无法排除连接构件时保留未知。",
+    "冻结规则后在未用于调试的连接区段测试，同时报告总P/R和新增点P；不得按本轮真值挑选保留补丁。"
+  ],
+  "validation": {
+    "protocol_tests": {
+      "tests": 29,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 4.677
+    },
+    "browser_checks": {
+      "revision_checks.json": {
+        "checks": [
+          "revision starts from 7950 frozen points and five unresolved records; no false first-step gain or early metrics",
+          "all ten recorded reviews show original context and reviewed overlay without changing point counts",
+          "four patch commits preserve the actual reviewed images and exact incremental counts",
+          "withdrawn candidates were not submitted and six unresolved questions remain disclosed",
+          "old and new P/R, F1, marginal precision and regression decision are visible despite the old gate passing",
+          "evaluation shows full-size front/reverse five-wire before-and-after comparison boards",
+          "revision comparison fits a 390px mobile viewport"
+        ],
+        "page_errors": [],
+        "failed_requests": [],
+        "offline": false,
+        "model_invoked": false,
+        "model_quality_test": false
+      },
+      "revision_offline_checks.json": {
+        "checks": [
+          "revision starts from 7950 frozen points and five unresolved records; no false first-step gain or early metrics",
+          "all ten recorded reviews show original context and reviewed overlay without changing point counts",
+          "four patch commits preserve the actual reviewed images and exact incremental counts",
+          "withdrawn candidates were not submitted and six unresolved questions remain disclosed",
+          "old and new P/R, F1, marginal precision and regression decision are visible despite the old gate passing",
+          "evaluation shows full-size front/reverse five-wire before-and-after comparison boards",
+          "revision comparison fits a 390px mobile viewport",
+          "offline playback loads only packaged local evidence"
+        ],
+        "page_errors": [],
+        "failed_requests": [],
+        "offline": true,
+        "model_invoked": false,
+        "model_quality_test": false
+      },
+      "context_checks.json": {
+        "checks": [
+          "new protocol has 61 recorded actions plus evaluation; future metrics are not displayed early",
+          "all 15 reviews display raw and overlay evidence; ten support and five neutral reviews do not change labels",
+          "unobservable evidence and visibility limits are visible in Chinese",
+          "five commits retain exact cumulative counts and show only the actually reviewed context overlays",
+          "raw-scene survey retains five unresolved connections; freezing does not certify completeness",
+          "independent local P/R and all 570 false negatives remain visible alongside completeness limits",
+          "390px mobile playback has no horizontal overflow"
+        ],
+        "page_errors": [],
+        "failed_requests": [],
+        "offline": false,
+        "model_invoked": false,
+        "model_quality_test": false
+      },
+      "overview_checks.json": {
+        "checks": [
+          "display payload retains all confirmed points per instance and matches unchanged frozen annotation",
+          "final overview is visible immediately and independent of step replay; extras default off",
+          "actual canvas contains all five distinct main-wire colors and no transverse-wire colors",
+          "each of five cards isolates its own rendered points with correct identity and color",
+          "rotation and zoom change the actual view without advancing replay",
+          "15 known unresolved intervals can locate the selected wire; none are labelled complete",
+          "two final projections open at full resolution and also appear at the last evaluation step",
+          "switching runs hides unrelated full-scene overview and restores the correct point buffer on return",
+          "390px mobile view has five visible wire colors and no horizontal page overflow"
+        ],
+        "page_errors": [],
+        "failed_requests": [],
+        "offline": false,
+        "annotation_sha256": "f8f802ee2d2d78730c39eefb68c81319a6e50a8554f5d78b5e0cd74213116437",
+        "model_invoked": false,
+        "model_quality_test": false
+      }
+    },
+    "public_endpoint": {
+      "http_status": 200,
+      "steps": 68,
+      "token_auth": true
+    }
+  },
+  "full_baseline_annotation_sha256": "f8f802ee2d2d78730c39eefb68c81319a6e50a8554f5d78b5e0cd74213116437",
+  "base_annotation_state_actions_unchanged": true,
+  "source_manifest": "source_manifest.json"
+}

@@ -1,0 +1,514 @@
+{
+  "instances": {
+    "wire_1": {
+      "candidate_id": "anchored_wire_1",
+      "point_sha256": "1ea3a50bbe030812b5e659b0255727bfaac0185861d2045d6f259b9aed9e06c5",
+      "points": 704,
+      "observer": "conversation_vlm",
+      "reason": "Reviewed side and top overlays: exactly the intended separate strand is green along its observed extent, no terrain or neighboring path is included. Identity is the same across the two projections."
+    },
+    "wire_2": {
+      "candidate_id": "anchored_wire_2",
+      "point_sha256": "38e7637ac985df23781ff4c8e03d7668cdfdf1a29107094e04a841fd784cfc8f",
+      "points": 893,
+      "observer": "conversation_vlm",
+      "reason": "Reviewed side and top overlays: exactly the intended separate strand is green along its observed extent, no terrain or neighboring path is included. Identity is the same across the two projections."
+    },
+    "wire_3": {
+      "candidate_id": "anchored_wire_3",
+      "point_sha256": "ddb07dfd11bab6315cc749775d7a29be941693923e2ec5f320bf4b61618651a2",
+      "points": 732,
+      "observer": "conversation_vlm",
+      "reason": "Reviewed side and top overlays: exactly the intended separate strand is green along its observed extent, no terrain or neighboring path is included. Identity is the same across the two projections."
+    },
+    "wire_4": {
+      "candidate_id": "anchored_wire_4",
+      "point_sha256": "53f2ce7af33ae2b4a0ee356563156f97bcf5c5d8ee5a6a879a7c16d83779dc5e",
+      "points": 852,
+      "observer": "conversation_vlm",
+      "reason": "Reviewed side and top overlays: exactly the intended separate strand is green along its observed extent, no terrain or neighboring path is included. Identity is the same across the two projections."
+    },
+    "wire_5": {
+      "candidate_id": "anchored_wire_5",
+      "point_sha256": "60ae3b4abb2488c7f51b24e83fd19d147b836eb3715640fca01f4fd2bbe07d51",
+      "points": 751,
+      "observer": "conversation_vlm",
+      "reason": "Reviewed side and top overlays: exactly the intended separate strand is green along its observed extent, no terrain or neighboring path is included. Identity is the same across the two projections."
+    }
+  },
+  "candidates": {
+    "visible_wire_1": {
+      "status": "RETRACTED",
+      "points": 704,
+      "point_sha256": "1ea3a50bbe030812b5e659b0255727bfaac0185861d2045d6f259b9aed9e06c5",
+      "support": {
+        "initial_side": 624,
+        "air_top": 657
+      },
+      "selections": [
+        {
+          "view_id": "initial_side",
+          "type": "box",
+          "coordinates": [
+            0,
+            0,
+            1000,
+            270
+          ]
+        },
+        {
+          "view_id": "air_top",
+          "type": "polyline",
+          "coordinates": [
+            [
+              204,
+              25
+            ],
+            [
+              169,
+              250
+            ],
+            [
+              127,
+              500
+            ],
+            [
+              82,
+              750
+            ],
+            [
+              35,
+              975
+            ]
+          ],
+          "radius": 10
+        }
+      ],
+      "overlays": [
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/visible_wire_1_initial_side.png",
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/visible_wire_1_air_top.png"
+      ],
+      "proposer": "conversation_vlm",
+      "independent_view_angle_deg": 90.0
+    },
+    "visible_wire_2": {
+      "status": "RETRACTED",
+      "points": 893,
+      "point_sha256": "38e7637ac985df23781ff4c8e03d7668cdfdf1a29107094e04a841fd784cfc8f",
+      "support": {
+        "initial_side": 763,
+        "air_top": 843
+      },
+      "selections": [
+        {
+          "view_id": "initial_side",
+          "type": "box",
+          "coordinates": [
+            0,
+            0,
+            1000,
+            270
+          ]
+        },
+        {
+          "view_id": "air_top",
+          "type": "polyline",
+          "coordinates": [
+            [
+              363,
+              25
+            ],
+            [
+              324,
+              250
+            ],
+            [
+              282,
+              500
+            ],
+            [
+              239,
+              750
+            ],
+            [
+              195,
+              975
+            ]
+          ],
+          "radius": 10
+        }
+      ],
+      "overlays": [
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/visible_wire_2_initial_side.png",
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/visible_wire_2_air_top.png"
+      ],
+      "proposer": "conversation_vlm",
+      "independent_view_angle_deg": 90.0
+    },
+    "visible_wire_3": {
+      "status": "RETRACTED",
+      "points": 124,
+      "point_sha256": "4a2f2e8cce0d4e9776d793197e621e6db4c3d434afdc7b7d910a6080762d1e43",
+      "support": {
+        "initial_side": 97,
+        "air_top": 105
+      },
+      "selections": [
+        {
+          "view_id": "initial_side",
+          "type": "box",
+          "coordinates": [
+            0,
+            0,
+            1000,
+            270
+          ]
+        },
+        {
+          "view_id": "air_top",
+          "type": "polyline",
+          "coordinates": [
+            [
+              584,
+              25
+            ],
+            [
+              559,
+              250
+            ],
+            [
+              520,
+              500
+            ],
+            [
+              480,
+              750
+            ],
+            [
+              441,
+              975
+            ]
+          ],
+          "radius": 10
+        }
+      ],
+      "overlays": [
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/visible_wire_3_initial_side.png",
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/visible_wire_3_air_top.png"
+      ],
+      "proposer": "conversation_vlm",
+      "independent_view_angle_deg": 90.0
+    },
+    "visible_wire_4": {
+      "status": "RETRACTED",
+      "points": 852,
+      "point_sha256": "53f2ce7af33ae2b4a0ee356563156f97bcf5c5d8ee5a6a879a7c16d83779dc5e",
+      "support": {
+        "initial_side": 733,
+        "air_top": 785
+      },
+      "selections": [
+        {
+          "view_id": "initial_side",
+          "type": "box",
+          "coordinates": [
+            0,
+            0,
+            1000,
+            270
+          ]
+        },
+        {
+          "view_id": "air_top",
+          "type": "polyline",
+          "coordinates": [
+            [
+              808,
+              25
+            ],
+            [
+              770,
+              250
+            ],
+            [
+              728,
+              500
+            ],
+            [
+              683,
+              750
+            ],
+            [
+              638,
+              975
+            ]
+          ],
+          "radius": 10
+        }
+      ],
+      "overlays": [
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/visible_wire_4_initial_side.png",
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/visible_wire_4_air_top.png"
+      ],
+      "proposer": "conversation_vlm",
+      "independent_view_angle_deg": 90.0
+    },
+    "visible_wire_5": {
+      "status": "RETRACTED",
+      "points": 751,
+      "point_sha256": "60ae3b4abb2488c7f51b24e83fd19d147b836eb3715640fca01f4fd2bbe07d51",
+      "support": {
+        "initial_side": 425,
+        "air_top": 699
+      },
+      "selections": [
+        {
+          "view_id": "initial_side",
+          "type": "box",
+          "coordinates": [
+            0,
+            0,
+            1000,
+            270
+          ]
+        },
+        {
+          "view_id": "air_top",
+          "type": "polyline",
+          "coordinates": [
+            [
+              965,
+              25
+            ],
+            [
+              929,
+              250
+            ],
+            [
+              886,
+              500
+            ],
+            [
+              841,
+              750
+            ],
+            [
+              795,
+              975
+            ]
+          ],
+          "radius": 10
+        }
+      ],
+      "overlays": [
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/visible_wire_5_initial_side.png",
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/visible_wire_5_air_top.png"
+      ],
+      "proposer": "conversation_vlm",
+      "independent_view_angle_deg": 90.0
+    },
+    "anchored_wire_1": {
+      "status": "CONFIRMED",
+      "points": 704,
+      "point_sha256": "1ea3a50bbe030812b5e659b0255727bfaac0185861d2045d6f259b9aed9e06c5",
+      "support": {
+        "initial_side": 624,
+        "air_top": 657
+      },
+      "selections": [
+        {
+          "view_id": "initial_side",
+          "type": "box",
+          "coordinates": [
+            0,
+            0,
+            1000,
+            270
+          ]
+        },
+        {
+          "view_id": "air_top",
+          "type": "anchors",
+          "marker_set": "top_rows",
+          "marker_ids": [
+            "A1",
+            "B1",
+            "C1",
+            "D1",
+            "E1"
+          ],
+          "radius": 20
+        }
+      ],
+      "overlays": [
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/anchored_wire_1_initial_side.png",
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/anchored_wire_1_air_top.png"
+      ],
+      "proposer": "conversation_vlm",
+      "independent_view_angle_deg": 90.0
+    },
+    "anchored_wire_2": {
+      "status": "CONFIRMED",
+      "points": 893,
+      "point_sha256": "38e7637ac985df23781ff4c8e03d7668cdfdf1a29107094e04a841fd784cfc8f",
+      "support": {
+        "initial_side": 763,
+        "air_top": 843
+      },
+      "selections": [
+        {
+          "view_id": "initial_side",
+          "type": "box",
+          "coordinates": [
+            0,
+            0,
+            1000,
+            270
+          ]
+        },
+        {
+          "view_id": "air_top",
+          "type": "anchors",
+          "marker_set": "top_rows",
+          "marker_ids": [
+            "A2",
+            "B2",
+            "C2",
+            "D2",
+            "E2"
+          ],
+          "radius": 20
+        }
+      ],
+      "overlays": [
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/anchored_wire_2_initial_side.png",
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/anchored_wire_2_air_top.png"
+      ],
+      "proposer": "conversation_vlm",
+      "independent_view_angle_deg": 90.0
+    },
+    "anchored_wire_3": {
+      "status": "CONFIRMED",
+      "points": 732,
+      "point_sha256": "ddb07dfd11bab6315cc749775d7a29be941693923e2ec5f320bf4b61618651a2",
+      "support": {
+        "initial_side": 581,
+        "air_top": 674
+      },
+      "selections": [
+        {
+          "view_id": "initial_side",
+          "type": "box",
+          "coordinates": [
+            0,
+            0,
+            1000,
+            270
+          ]
+        },
+        {
+          "view_id": "air_top",
+          "type": "anchors",
+          "marker_set": "top_rows",
+          "marker_ids": [
+            "A3",
+            "B3",
+            "C3",
+            "D3",
+            "E3"
+          ],
+          "radius": 20
+        }
+      ],
+      "overlays": [
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/anchored_wire_3_initial_side.png",
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/anchored_wire_3_air_top.png"
+      ],
+      "proposer": "conversation_vlm",
+      "independent_view_angle_deg": 90.0
+    },
+    "anchored_wire_4": {
+      "status": "CONFIRMED",
+      "points": 852,
+      "point_sha256": "53f2ce7af33ae2b4a0ee356563156f97bcf5c5d8ee5a6a879a7c16d83779dc5e",
+      "support": {
+        "initial_side": 733,
+        "air_top": 785
+      },
+      "selections": [
+        {
+          "view_id": "initial_side",
+          "type": "box",
+          "coordinates": [
+            0,
+            0,
+            1000,
+            270
+          ]
+        },
+        {
+          "view_id": "air_top",
+          "type": "anchors",
+          "marker_set": "top_rows",
+          "marker_ids": [
+            "A4",
+            "B4",
+            "C4",
+            "D4",
+            "E4"
+          ],
+          "radius": 20
+        }
+      ],
+      "overlays": [
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/anchored_wire_4_initial_side.png",
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/anchored_wire_4_air_top.png"
+      ],
+      "proposer": "conversation_vlm",
+      "independent_view_angle_deg": 90.0
+    },
+    "anchored_wire_5": {
+      "status": "CONFIRMED",
+      "points": 751,
+      "point_sha256": "60ae3b4abb2488c7f51b24e83fd19d147b836eb3715640fca01f4fd2bbe07d51",
+      "support": {
+        "initial_side": 425,
+        "air_top": 699
+      },
+      "selections": [
+        {
+          "view_id": "initial_side",
+          "type": "box",
+          "coordinates": [
+            0,
+            0,
+            1000,
+            270
+          ]
+        },
+        {
+          "view_id": "air_top",
+          "type": "anchors",
+          "marker_set": "top_rows",
+          "marker_ids": [
+            "A5",
+            "B5",
+            "C5",
+            "D5",
+            "E5"
+          ],
+          "radius": 20
+        }
+      ],
+      "overlays": [
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/anchored_wire_5_initial_side.png",
+        "visual_annotation_v3/runs/t1z5b_30_60_session/candidates/anchored_wire_5_air_top.png"
+      ],
+      "proposer": "conversation_vlm",
+      "independent_view_angle_deg": 90.0
+    }
+  },
+  "unknown": [],
+  "finished": true,
+  "annotation_sha256": "e4ba097d0297ce8117d6556743e14006c2a38528a2e3e164e780c504e8520699"
+}

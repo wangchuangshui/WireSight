@@ -1,0 +1,230 @@
+{
+  "source": "/workspace/pointnext_repro/data/gridnet/t1z5b/lidar/t1z5b.las",
+  "roi_y_offset": [
+    100,
+    110
+  ],
+  "roi_points": 1629923,
+  "annotation_sha256": "3b6ee81b79ef024240b5823a2ba000a74a7285d14b0f0b9e1e691900fb817d70",
+  "observer_types": [
+    "conversation_vlm"
+  ],
+  "combined": {
+    "tp": 7983,
+    "fp": 26,
+    "fn": 511,
+    "precision_pct": 99.6753652141341,
+    "recall_pct": 93.98398869790441,
+    "gt_points": 8494,
+    "predicted_points": 8009,
+    "ignored_predicted_points": 0
+  },
+  "class_recalls": {
+    "5": {
+      "gt": 4827,
+      "tp": 4487,
+      "recall_pct": 92.9562875492024
+    },
+    "6": {
+      "gt": 3667,
+      "tp": 3496,
+      "recall_pct": 95.33678756476684
+    },
+    "7": {
+      "gt": 0,
+      "tp": 0,
+      "recall_pct": null
+    }
+  },
+  "spatial_bins": [
+    {
+      "offset_m": 100.0,
+      "tp": 7983,
+      "fp": 26,
+      "fn": 511,
+      "precision_pct": 99.6753652141341,
+      "recall_pct": 93.98398869790441,
+      "gt_points": 8494,
+      "predicted_points": 8009,
+      "ignored_predicted_points": 0
+    }
+  ],
+  "instance_point_counts": {
+    "1": 1565,
+    "2": 1823,
+    "3": 1428,
+    "4": 1699,
+    "5": 1494
+  },
+  "instance_accuracy": "NOT_EVALUATED: no independent real-scene instance truth",
+  "unknown_regions": [
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "本轮上下文复核仍不能确定塔线接触窄带的逐点归属；保留既有明确区间，不猜测补全。",
+      "selection": {
+        "view_id": "wire_1_side",
+        "type": "box",
+        "coordinates": [
+          430,
+          0,
+          448,
+          1000
+        ]
+      },
+      "question_id": "connection_1"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "本轮上下文复核仍不能确定塔线接触窄带的逐点归属；保留既有明确区间，不猜测补全。",
+      "selection": {
+        "view_id": "wire_2_side",
+        "type": "box",
+        "coordinates": [
+          421,
+          0,
+          442,
+          1000
+        ]
+      },
+      "question_id": "connection_2"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "本轮上下文复核仍不能确定塔线接触窄带的逐点归属；保留既有明确区间，不猜测补全。",
+      "selection": {
+        "view_id": "wire_3_side",
+        "type": "box",
+        "coordinates": [
+          399,
+          0,
+          418,
+          1000
+        ]
+      },
+      "question_id": "connection_3"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "本轮上下文复核仍不能确定塔线接触窄带的逐点归属；保留既有明确区间，不猜测补全。",
+      "selection": {
+        "view_id": "wire_4_side",
+        "type": "box",
+        "coordinates": [
+          376,
+          0,
+          399,
+          1000
+        ]
+      },
+      "question_id": "connection_4"
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "本轮上下文复核仍不能确定塔线接触窄带的逐点归属；保留既有明确区间，不猜测补全。",
+      "selection": {
+        "view_id": "wire_5_side",
+        "type": "box",
+        "coordinates": [
+          370,
+          0,
+          390,
+          1000
+        ]
+      },
+      "question_id": "connection_5"
+    },
+    {
+      "action": "UNKNOWN",
+      "question_id": "delta_contact_2",
+      "selection": {
+        "view_id": "wire2_contact_readable",
+        "type": "box",
+        "coordinates": [
+          350,
+          400,
+          620,
+          650
+        ]
+      },
+      "observer": "conversation_vlm",
+      "reason": "2号线连接窄带存在塔架斜边与线体混叠，需要更能排除宽体结构的观察；不从被拒整组中猜测挑点。"
+    },
+    {
+      "action": "UNKNOWN",
+      "question_id": "delta_contact_3",
+      "selection": {
+        "view_id": "wire3_contact_readable",
+        "type": "box",
+        "coordinates": [
+          330,
+          500,
+          610,
+          690
+        ]
+      },
+      "observer": "conversation_vlm",
+      "reason": "3号线新增集合的反向语义归属仍不清楚，需要继续换能消除交叉混叠的视角。"
+    },
+    {
+      "observer": "conversation_vlm",
+      "action": "UNKNOWN",
+      "question_id": "delta_contact_4",
+      "view_id": "wire4_contact_readable",
+      "box": [
+        330,
+        350,
+        640,
+        650
+      ],
+      "reason": "顶部宽体结构与细线交汇的精确类别边界尚未分开，需要新视角或更高分辨率观察。"
+    },
+    {
+      "observer": "conversation_vlm",
+      "action": "UNKNOWN",
+      "question_id": "delta_contact_5",
+      "view_id": "wire5_active_110",
+      "box": [
+        450,
+        400,
+        650,
+        650
+      ],
+      "reason": "第三方向新增点与竖向连接末端混合，需进一步区分导线与绝缘或其他连接部件。"
+    }
+  ],
+  "thresholds": {
+    "precision_pct": 98,
+    "recall_pct": 90,
+    "each_present_class_recall_pct": 90
+  },
+  "raw_point_gate_passed": true,
+  "full_scene_completed": false,
+  "per_class_recall_gate_passed": true,
+  "point_and_class_gate_passed": true,
+  "development_context": "Development scene; not an independent held-out evaluation",
+  "false_positive_classes": {
+    "1": 26
+  },
+  "evaluation_scope": "declared_ROI",
+  "unobserved_scene_points": 57994166,
+  "label_protocol": {
+    "positive_classes": [
+      5,
+      6,
+      7
+    ],
+    "ignored_classes": [
+      12,
+      13,
+      255
+    ],
+    "unit": "original LAS records, no voxelization",
+    "unknown_positive_points_count_as_false_negatives": true,
+    "undefined_precision_or_recall": null
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "run": "t1z5b_full_session",
+  "roi_y_offset_m": [
+    0,
+    770.2
+  ],
+  "protocol": "legacy_v0",
+  "geometry_sha256": "5e7388a5b16b37db67ab60450fd365955d1dadb31da7ca33614d90750c9bdf70",
+  "reference_annotation_sha256": "edca6c5ca8a3861e69bb638bec287622c6ce75504377fc2388f2eee21b5878dd",
+  "recorded_path_prefixes": [
+    "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session",
+    "visual_annotation_v3/runs/t1z5b_full_session"
+  ],
+  "actions_sha256": "a782278faa6ec137dec0d584889fab20f45c8c50f890cdbfbb85976eefd65765",
+  "action_count": 38,
+  "geometry_member_sha256": {
+    "coords.npy": "f4ec83b1a4d5a9a28e88c3dead6b739611e7b1cbc4208a6684df19b120170ed8",
+    "record_ids.npy": "579c7470bd4e8538ced4c814bb21d0de83672a42bbf872fe1e51f2de1508761e"
+  }
+}

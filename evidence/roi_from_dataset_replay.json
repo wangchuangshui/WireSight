@@ -1,0 +1,19 @@
+{
+  "scope": "roi",
+  "sessions": [
+    {
+      "session": "t1z5b_30_60_session",
+      "actions_replayed": 25,
+      "geometry_payloads_identical": true,
+      "geometry_archive_sha256_match": false,
+      "reference_annotation_sha256_match": false
+    }
+  ],
+  "point_labels_identical": true,
+  "model_invoked": false,
+  "ground_truth_read": false,
+  "final_run": "t1z5b_30_60_session",
+  "meaning": "Re-executed saved visual decisions; not a model perception repeat",
+  "geometry_preparation": "freshly prepared from verified original LAS; no geometry cache",
+  "installed_package_version": "0.2.0"
+}

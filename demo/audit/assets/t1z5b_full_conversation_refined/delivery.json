@@ -1,0 +1,183 @@
+{
+  "observer": "conversation_vlm",
+  "local_qwen_enabled": false,
+  "point_model_used": false,
+  "geometric_tracing_used": false,
+  "scope": "full t1z5b, original LAS records",
+  "point_gate_passed": true,
+  "combined": {
+    "tp": 245931,
+    "fp": 26,
+    "fn": 6610,
+    "precision_pct": 99.98942904654065,
+    "recall_pct": 97.38260322086315,
+    "gt_points": 252541,
+    "predicted_points": 245957,
+    "ignored_predicted_points": 0
+  },
+  "class_recalls": {
+    "5": {
+      "gt": 136238,
+      "tp": 132669,
+      "recall_pct": 97.38031973458213
+    },
+    "6": {
+      "gt": 103439,
+      "tp": 100853,
+      "recall_pct": 97.4999758311662
+    },
+    "7": {
+      "gt": 12864,
+      "tp": 12409,
+      "recall_pct": 96.46299751243781
+    }
+  },
+  "full_record_count": 59624089,
+  "annotation_sha256": "f8f802ee2d2d78730c39eefb68c81319a6e50a8554f5d78b5e0cd74213116437",
+  "point_evaluation_denominator": 252541,
+  "export": {
+    "file": "annotated_scene.las",
+    "sha256": "8c8dc59b1b46a617cd7ad0498b922e3b686b46dd25b4f9ebb14463695c5c9795",
+    "points": 59624089,
+    "readback_verified": true,
+    "max_coordinate_error_m": 9.313225746154785e-10,
+    "selected_only": false,
+    "authoritative_fields": [
+      "source_record_id",
+      "vlm_instance_id",
+      "vlm_confirmed"
+    ],
+    "zero_instance_means": "unconfirmed, including unknown; not a certified background label",
+    "classification_field": "left unclassified; cable subclasses were not visually assigned",
+    "instance_names": {
+      "1": "s00__wire_1",
+      "2": "s00__wire_2",
+      "3": "s00__wire_3",
+      "4": "s00__wire_4",
+      "5": "s00__wire_5",
+      "6": "s01__cross_mid",
+      "7": "s02__cross_far"
+    }
+  },
+  "local_replay": {
+    "actions_replayed": 33,
+    "point_labels_identical": true,
+    "source": "visual_annotation_v3/runs/conversation_tower_attachment_20261011",
+    "destination": "visual_annotation_v3/runs/replay_conversation_tower_attachment_20261011",
+    "ground_truth_read": false,
+    "model_invoked": false,
+    "meaning": "executor replay of saved visual decisions, not an autonomous model repeat"
+  },
+  "extension_verification": {
+    "point_labels_identical": true,
+    "raw_records": 59624089,
+    "selected_points": 245957,
+    "ground_truth_read": false
+  },
+  "demo_steps": 102,
+  "browser_checks": {
+    "checks": [
+      "initial step cannot display future precision or confirmed points",
+      "all seven confirmations show exact cumulative counts and two-view evidence",
+      "original/overlay comparison and full-size image dialog work",
+      "final metric display matches full-scene report and retains worst-bin warning",
+      "retracted candidate is visible in timeline",
+      "play/pause advances actual event sequence",
+      "local-model launch removed from UI and backend returns 410",
+      "conversation refinement counts only 2485 new raw records; full P/R and remaining weakest bin match",
+      "current conversation review displays both actual overlays and correct observer",
+      "mobile viewport has no horizontal overflow"
+    ],
+    "page_errors": [],
+    "failed_http_requests": [],
+    "model_quality_test": false
+  },
+  "overall_system_acceptance": "NOT_EVALUATED: independent real-instance ground truth and held-out scenes required",
+  "development_note": "Evaluation-directed conversation visual refinement; explicit instance association, no GT point IDs or local model used. Not held-out.",
+  "remaining_weakest_bin": {
+    "offset_m": 650.0,
+    "tp": 12389,
+    "fp": 0,
+    "fn": 2961,
+    "precision_pct": 100.0,
+    "recall_pct": 80.71009771986971,
+    "gt_points": 15350,
+    "predicted_points": 12389,
+    "ignored_predicted_points": 0
+  },
+  "created_at": "2026-10-11T14:46:34.546735+00:00",
+  "offline_checks": {
+    "checks": [
+      "all 132 referenced offline assets exist; seven conversation runs only",
+      "file:// playback shows 102 steps and exact full-scene metrics",
+      "each conversation run displays actual confirmation images without any API call"
+    ],
+    "page_errors": [],
+    "failed_requests": [],
+    "assets": 132,
+    "runs": 7
+  },
+  "final_overview": {
+    "updated_at": "2026-10-11T15:08:49.559124+00:00",
+    "main_wires": 5,
+    "main_point_count": 233548,
+    "additional_wires": 2,
+    "additional_point_count": 12409,
+    "confirmed_points_sampled": false,
+    "known_unresolved_intervals": 15,
+    "per_wire_completeness": "NOT_VERIFIED",
+    "annotation_unchanged": true,
+    "annotation_sha256": "f8f802ee2d2d78730c39eefb68c81319a6e50a8554f5d78b5e0cd74213116437",
+    "online_checks": {
+      "checks": [
+        "display payload retains all confirmed points per instance and matches unchanged frozen annotation",
+        "final overview is visible immediately and independent of step replay; extras default off",
+        "actual canvas contains all five distinct main-wire colors and no transverse-wire colors",
+        "each of five cards isolates its own rendered points with correct identity and color",
+        "rotation and zoom change the actual view without advancing replay",
+        "15 known unresolved intervals can locate the selected wire; none are labelled complete",
+        "two final projections open at full resolution and also appear at the last evaluation step",
+        "switching runs hides unrelated full-scene overview and restores the correct point buffer on return",
+        "390px mobile view has five visible wire colors and no horizontal page overflow"
+      ],
+      "page_errors": [],
+      "failed_requests": [],
+      "offline": false,
+      "annotation_sha256": "f8f802ee2d2d78730c39eefb68c81319a6e50a8554f5d78b5e0cd74213116437",
+      "model_invoked": false,
+      "model_quality_test": false
+    },
+    "offline_checks": {
+      "checks": [
+        "display payload retains all confirmed points per instance and matches unchanged frozen annotation",
+        "final overview is visible immediately and independent of step replay; extras default off",
+        "actual canvas contains all five distinct main-wire colors and no transverse-wire colors",
+        "each of five cards isolates its own rendered points with correct identity and color",
+        "rotation and zoom change the actual view without advancing replay",
+        "15 known unresolved intervals can locate the selected wire; none are labelled complete",
+        "two final projections open at full resolution and also appear at the last evaluation step",
+        "switching runs hides unrelated full-scene overview and restores the correct point buffer on return",
+        "390px mobile view has five visible wire colors and no horizontal page overflow",
+        "file:// offline overview, controls, projections and replay use local assets only"
+      ],
+      "page_errors": [],
+      "failed_requests": [],
+      "offline": true,
+      "annotation_sha256": "f8f802ee2d2d78730c39eefb68c81319a6e50a8554f5d78b5e0cd74213116437",
+      "model_invoked": false,
+      "model_quality_test": false
+    },
+    "offline_referenced_assets": 135,
+    "display_source_sha256": {
+      "overview.py": "064f20f2f96e5fc54c437ffb984e9c2141f8ffadb837b2d06eab7cc516d3b33d",
+      "timeline.py": "62c3e8ae2299cf50c7976bab75f634ba81abff0658ef708c1b2e275f4a7d0d1b",
+      "webserver.py": "07c1272964c90d6d2d14040930b8eaca45f02d6355af19d8725c5877b2649660",
+      "validate_overview.py": "fda49d55454501240f53f83345bbd00e041b0a50d7bb43f512020208535a46a0",
+      "web/app.js": "25b8cadbd6959e9151d7d3af7017949deef94e389f079eac8328c15b76875ede",
+      "web/index.html": "039bcdac4f88514157229f0b55d6215a4a3d5257955532eae779cd7ad53776eb",
+      "web/overview.css": "2f136e72bf0dc4dc9378b716b256ab591a49067a7ead31123a43bb70e3a64231",
+      "web/overview.js": "dbc46de34597d445588237d416f3e38ba1f6a94ef8ddc06f3061c302fd0aea21",
+      "web/style.css": "8ae0736046baf8106344c7fd271e112e17a25a48f7c1882bfdda228d93ddf706"
+    }
+  }
+}

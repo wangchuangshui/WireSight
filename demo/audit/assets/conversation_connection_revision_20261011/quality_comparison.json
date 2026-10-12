@@ -1,0 +1,104 @@
+{
+  "status": "FROZEN_DEVELOPMENT_EXPERIMENT",
+  "base_run": "conversation_context_review_20261011",
+  "annotation_sha256": "7449e24e72f699274940413db44bb048dfce334c7aae1d32a378bbeb30cbc78f",
+  "base_annotation_sha256": "3f397c031c491c3abdd16ad85ca55b124e44d5e27d6dc4cb0f431f9191f8cd5e",
+  "before": {
+    "tp": 7924,
+    "fp": 26,
+    "fn": 570,
+    "precision_pct": 99.67295597484276,
+    "recall_pct": 93.28938073934542,
+    "gt_points": 8494,
+    "predicted_points": 7950,
+    "ignored_predicted_points": 0,
+    "f1_pct": 96.3755777183167
+  },
+  "after": {
+    "tp": 8016,
+    "fp": 127,
+    "fn": 478,
+    "precision_pct": 98.44037823897827,
+    "recall_pct": 94.37249823404757,
+    "gt_points": 8494,
+    "predicted_points": 8143,
+    "ignored_predicted_points": 0,
+    "f1_pct": 96.3635270781992
+  },
+  "delta": {
+    "precision_pct": -1.2325777358644956,
+    "recall_pct": 1.083117494702151,
+    "f1_pct": -0.012050640117507783,
+    "tp": 92,
+    "fp": 101,
+    "fn": -92
+  },
+  "instances": [
+    {
+      "instance": "wire_1",
+      "before": 1526,
+      "after": 1565,
+      "added": 39,
+      "added_tp": 39,
+      "added_fp": 0,
+      "added_ignored": 0,
+      "added_precision_pct": 100.0
+    },
+    {
+      "instance": "wire_2",
+      "before": 1823,
+      "after": 1860,
+      "added": 37,
+      "added_tp": 1,
+      "added_fp": 36,
+      "added_ignored": 0,
+      "added_precision_pct": 2.7027027027027026
+    },
+    {
+      "instance": "wire_3",
+      "before": 1408,
+      "after": 1408,
+      "added": 0,
+      "added_tp": 0,
+      "added_fp": 0,
+      "added_ignored": 0,
+      "added_precision_pct": null
+    },
+    {
+      "instance": "wire_4",
+      "before": 1699,
+      "after": 1760,
+      "added": 61,
+      "added_tp": 1,
+      "added_fp": 60,
+      "added_ignored": 0,
+      "added_precision_pct": 1.639344262295082
+    },
+    {
+      "instance": "wire_5",
+      "before": 1494,
+      "after": 1550,
+      "added": 56,
+      "added_tp": 51,
+      "added_fp": 5,
+      "added_ignored": 0,
+      "added_precision_pct": 91.07142857142857
+    }
+  ],
+  "added_points": 193,
+  "added_tp": 92,
+  "added_fp": 101,
+  "added_precision_pct": 47.66839378238342,
+  "old_labels_retained": true,
+  "removed_points": 0,
+  "quality_gain_accepted": false,
+  "promoted_to_full_baseline": false,
+  "decision": "召回提高但精度下降，未替换基线。原有 P≥98%、R≥90% 门槛通过不等于优化成功。",
+  "ground_truth_access": "aggregate diagnostics after freezing; no labels edited after evaluation",
+  "limits": [
+    "已知开发区段100–110米，不是独立留出测试",
+    "实例身份与整条线完整性仍未独立验收",
+    "不同视角的整段支持不能证明所选区域内每个点的类别"
+  ],
+  "created_at_utc": "2026-10-11T16:05:56.065013+00:00"
+}

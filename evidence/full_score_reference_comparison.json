@@ -1,0 +1,8 @@
+{
+  "combined_matches": true,
+  "all_original_class_recalls_match": true,
+  "all_spatial_bins_match": true,
+  "spatial_bins_compared": 78,
+  "all_instance_point_counts_match": true,
+  "false_positive_classes_match": true
+}

@@ -1,0 +1,18 @@
+{
+  "version": "0.1.1",
+  "executor_byte_identical_to_tested_0_1_0": {
+    "__init__.py": true,
+    "scene.py": true,
+    "observation.py": true,
+    "session.py": true,
+    "review_protocol.py": true,
+    "revision.py": true,
+    "compose.py": true,
+    "extend.py": true,
+    "replay.py": true,
+    "evaluate.py": true,
+    "artifacts.py": true
+  },
+  "frozen_points_and_metrics_identical": true,
+  "changes": "Presentation entry, project interpretation, documentation and recorded video narrative. No semantic annotation changes."
+}

@@ -1,0 +1,24 @@
+{
+  "file": "annotated_scene.las",
+  "sha256": "8c8dc59b1b46a617cd7ad0498b922e3b686b46dd25b4f9ebb14463695c5c9795",
+  "points": 59624089,
+  "readback_verified": true,
+  "max_coordinate_error_m": 9.313225746154785e-10,
+  "selected_only": false,
+  "authoritative_fields": [
+    "source_record_id",
+    "vlm_instance_id",
+    "vlm_confirmed"
+  ],
+  "zero_instance_means": "unconfirmed, including unknown; not a certified background label",
+  "classification_field": "left unclassified; cable subclasses were not visually assigned",
+  "instance_names": {
+    "1": "s00__wire_1",
+    "2": "s00__wire_2",
+    "3": "s00__wire_3",
+    "4": "s00__wire_4",
+    "5": "s00__wire_5",
+    "6": "s01__cross_mid",
+    "7": "s02__cross_far"
+  }
+}

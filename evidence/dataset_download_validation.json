@@ -1,0 +1,10 @@
+{
+  "pinned_public_url_accessible_without_credentials": true,
+  "http_status": 206,
+  "content_range": "bytes 0-63/2265716708",
+  "content_length": "64",
+  "las_magic_verified": true,
+  "bytes_read": 64,
+  "full_source_sha256_verified_locally": "11c9a2abf2eed1a6207a9bfeb5d2a00ea6f28ad09adbb40b0afcfdb0613fbd35",
+  "entire_file_redownloaded": false
+}

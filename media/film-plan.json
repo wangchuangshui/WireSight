@@ -1,0 +1,118 @@
+{
+  "language": "en",
+  "format": "English project documentary; recorded decisions and frozen points",
+  "synthetic_narration": true,
+  "model_invoked_for_annotation": false,
+  "scenes": [
+    {
+      "id": "hook",
+      "title": "59,624,089\noriginal points.",
+      "subtitle": "A visual interface for 3D annotation.",
+      "narration": "Nearly sixty million original points. How can a vision language model annotate a three dimensional scene through observation? Meet WireSight.",
+      "min_seconds": 8,
+      "audio_file": "../media/narration/00.wav",
+      "voice_seconds": 7.4071655328798185,
+      "seconds": 9,
+      "start": 0,
+      "end": 9
+    },
+    {
+      "id": "top",
+      "title": "Make height\nvisual evidence.",
+      "subtitle": "Top-down discovery / exact recorded selection paths",
+      "narration": "Start with a top down height view. Position and elevation become visual evidence. The observer identifies five elongated traces and specifies their paths in the image.",
+      "min_seconds": 9,
+      "audio_file": "../media/narration/01.wav",
+      "voice_seconds": 9.462131519274376,
+      "seconds": 11,
+      "start": 9,
+      "end": 20
+    },
+    {
+      "id": "views",
+      "title": "Look again.\nResolve the question.",
+      "subtitle": "Top views expose paths / side views expose sag",
+      "narration": "A top view separates the wires. A side view reveals sag and supports. The observer requests the perspectives needed to resolve its spatial questions.",
+      "min_seconds": 9,
+      "audio_file": "../media/narration/02.wav",
+      "voice_seconds": 8.811972789115647,
+      "seconds": 10,
+      "start": 20,
+      "end": 30
+    },
+    {
+      "id": "mapping",
+      "title": "Visual decisions.\nOriginal point IDs.",
+      "subtitle": "Explicit image regions \u2192 multiview intersection \u2192 point labels",
+      "narration": "Visual decisions become explicit image regions. The executor retains depth and original record IDs, and maps multiview selections back to three dimensional points.",
+      "min_seconds": 9,
+      "audio_file": "../media/narration/03.wav",
+      "voice_seconds": 9.253151927437642,
+      "seconds": 11,
+      "start": 30,
+      "end": 41
+    },
+    {
+      "id": "review",
+      "title": "Insufficient evidence?\nKeep it unknown.",
+      "subtitle": "Real local revision: support + unobservable \u2192 retract",
+      "narration": "Candidates are reviewed before they are committed. In this recorded example, the second view is ambiguous. The observer retracts the pending additions.",
+      "min_seconds": 8,
+      "audio_file": "../media/narration/04.wav",
+      "voice_seconds": 8.13859410430839,
+      "seconds": 10,
+      "start": 41,
+      "end": 51
+    },
+    {
+      "id": "result",
+      "title": "From observed images\nto labeled 3D points.",
+      "subtitle": "Five main wires / two transverse cables",
+      "narration": "The frozen result contains five main wires and two transverse cables. Every annotated point is retained, with gaps preserved.",
+      "min_seconds": 9,
+      "audio_file": "../media/narration/05.wav",
+      "voice_seconds": 7.047256235827664,
+      "seconds": 9,
+      "start": 51,
+      "end": 60
+    },
+    {
+      "id": "metrics",
+      "title": "Freeze first.\nEvaluate the full scope.",
+      "subtitle": "GridNet-HD / t1z5b development-scene point metrics",
+      "narration": "On this development scene, precision is about ninety nine point nine nine percent, and recall is ninety seven point three eight. Unconfirmed targets still count as misses.",
+      "min_seconds": 10,
+      "audio_file": "../media/narration/06.wav",
+      "voice_seconds": 8.962902494331066,
+      "seconds": 10,
+      "start": 60,
+      "end": 70
+    },
+    {
+      "id": "value",
+      "title": "Bring visual reasoning\nto 3D annotation.",
+      "subtitle": "Task-driven observation / original-point execution",
+      "narration": "The idea is a visual interface for three dimensional annotation. Reuse existing visual understanding, let questions guide observation, and keep original point execution auditable.",
+      "min_seconds": 9,
+      "audio_file": "../media/narration/07.wav",
+      "voice_seconds": 10.181950113378685,
+      "seconds": 12,
+      "start": 70,
+      "end": 82
+    },
+    {
+      "id": "open",
+      "title": "Inspect. Reproduce.\nBuild on the interface.",
+      "subtitle": "Offline demo / real geometry / frozen labels / recorded decisions",
+      "narration": "The release includes a demo, real geometry, frozen labels, recorded actions, and replay tools. Inspect the evidence, reproduce the result, and build on the interface.",
+      "min_seconds": 9,
+      "audio_file": "../media/narration/08.wav",
+      "voice_seconds": 10.495419501133787,
+      "seconds": 12,
+      "start": 82,
+      "end": 94
+    }
+  ],
+  "duration_seconds": 94,
+  "narrator": "Piper en_US lessac high, locally synthesized documentary narration"
+}

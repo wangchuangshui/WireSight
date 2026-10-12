@@ -1,0 +1,105 @@
+{
+  "status": "FROZEN_DEVELOPMENT_EXPERIMENT",
+  "base_run": "conversation_context_review_20261011",
+  "annotation_sha256": "3b6ee81b79ef024240b5823a2ba000a74a7285d14b0f0b9e1e691900fb817d70",
+  "base_annotation_sha256": "3f397c031c491c3abdd16ad85ca55b124e44d5e27d6dc4cb0f431f9191f8cd5e",
+  "before": {
+    "tp": 7924,
+    "fp": 26,
+    "fn": 570,
+    "precision_pct": 99.67295597484276,
+    "recall_pct": 93.28938073934542,
+    "gt_points": 8494,
+    "predicted_points": 7950,
+    "ignored_predicted_points": 0,
+    "f1_pct": 96.3755777183167
+  },
+  "after": {
+    "tp": 7983,
+    "fp": 26,
+    "fn": 511,
+    "precision_pct": 99.6753652141341,
+    "recall_pct": 93.98398869790441,
+    "gt_points": 8494,
+    "predicted_points": 8009,
+    "ignored_predicted_points": 0,
+    "f1_pct": 96.74604617342301
+  },
+  "delta": {
+    "precision_pct": 0.0024092392913388494,
+    "recall_pct": 0.6946079585589899,
+    "f1_pct": 0.3704684551063053,
+    "tp": 59,
+    "fp": 0,
+    "fn": -59
+  },
+  "instances": [
+    {
+      "instance": "wire_1",
+      "before": 1526,
+      "after": 1565,
+      "added": 39,
+      "added_tp": 39,
+      "added_fp": 0,
+      "added_ignored": 0,
+      "added_precision_pct": 100.0
+    },
+    {
+      "instance": "wire_2",
+      "before": 1823,
+      "after": 1823,
+      "added": 0,
+      "added_tp": 0,
+      "added_fp": 0,
+      "added_ignored": 0,
+      "added_precision_pct": null
+    },
+    {
+      "instance": "wire_3",
+      "before": 1408,
+      "after": 1428,
+      "added": 20,
+      "added_tp": 20,
+      "added_fp": 0,
+      "added_ignored": 0,
+      "added_precision_pct": 100.0
+    },
+    {
+      "instance": "wire_4",
+      "before": 1699,
+      "after": 1699,
+      "added": 0,
+      "added_tp": 0,
+      "added_fp": 0,
+      "added_ignored": 0,
+      "added_precision_pct": null
+    },
+    {
+      "instance": "wire_5",
+      "before": 1494,
+      "after": 1494,
+      "added": 0,
+      "added_tp": 0,
+      "added_fp": 0,
+      "added_ignored": 0,
+      "added_precision_pct": null
+    }
+  ],
+  "added_points": 59,
+  "added_tp": 59,
+  "added_fp": 0,
+  "added_precision_pct": 100.0,
+  "old_labels_retained": true,
+  "removed_points": 0,
+  "quality_gain_accepted": true,
+  "promoted_to_full_baseline": false,
+  "improvement_rule": "same denominator, precision non-decreasing and recall strictly increasing",
+  "decision": "本开发区段精度未下降且召回提升；尚未合入全场景基线。",
+  "ground_truth_access": "aggregate diagnostics after freezing; no labels edited after evaluation",
+  "limits": [
+    "已知开发区段100–110米，不是独立留出测试",
+    "实例身份与整条线完整性仍未独立验收",
+    "不同视角的整段支持不能证明所选区域内每个点的类别"
+  ],
+  "created_at_utc": "2026-10-11T16:41:47.632223+00:00"
+}

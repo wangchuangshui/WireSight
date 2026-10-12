@@ -1,0 +1,5 @@
+{
+  "archive_compression_difference_accepted_only_when_exact_member_hashes_match": true,
+  "coordinate_change_rejected": true,
+  "record_id_change_rejected": true
+}

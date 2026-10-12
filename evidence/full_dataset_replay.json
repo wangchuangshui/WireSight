@@ -1,0 +1,43 @@
+{
+  "scope": "full",
+  "sessions": [
+    {
+      "session": "t1z5b_full_session",
+      "actions_replayed": 38,
+      "geometry_payloads_identical": true,
+      "geometry_archive_sha256_match": false,
+      "reference_annotation_sha256_match": true
+    },
+    {
+      "session": "tower_mid_refinement",
+      "actions_replayed": 11,
+      "geometry_payloads_identical": true,
+      "geometry_archive_sha256_match": true,
+      "reference_annotation_sha256_match": true
+    },
+    {
+      "session": "tower_far_refinement",
+      "actions_replayed": 17,
+      "geometry_payloads_identical": true,
+      "geometry_archive_sha256_match": true,
+      "reference_annotation_sha256_match": true
+    },
+    {
+      "session": "conversation_tower_attachment_20261011",
+      "actions_replayed": 33,
+      "geometry_payloads_identical": true,
+      "geometry_archive_sha256_match": true,
+      "reference_annotation_sha256_match": true
+    }
+  ],
+  "point_labels_identical": true,
+  "model_invoked": false,
+  "ground_truth_read": false,
+  "final_run": "full_conversation_refined",
+  "meaning": "Re-executed saved visual decisions; not a model perception repeat",
+  "geometry_preparation": "fresh preparation from verified original LAS for all four sessions; no geometry cache",
+  "total_actions_replayed": 99,
+  "installed_package_version": "0.2.0",
+  "final_annotation_sha256": "f8f802ee2d2d78730c39eefb68c81319a6e50a8554f5d78b5e0cd74213116437",
+  "final_annotation_sha256_matches_original": true
+}

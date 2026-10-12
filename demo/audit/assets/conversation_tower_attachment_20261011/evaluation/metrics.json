@@ -1,0 +1,167 @@
+{
+  "source": "/workspace/pointnext_repro/data/gridnet/t1z5b/lidar/t1z5b.las",
+  "roi_y_offset": [
+    100,
+    110
+  ],
+  "roi_points": 1629923,
+  "annotation_sha256": "3f397c031c491c3abdd16ad85ca55b124e44d5e27d6dc4cb0f431f9191f8cd5e",
+  "observer_types": [
+    "conversation_vlm"
+  ],
+  "combined": {
+    "tp": 7924,
+    "fp": 26,
+    "fn": 570,
+    "precision_pct": 99.67295597484276,
+    "recall_pct": 93.28938073934542,
+    "gt_points": 8494,
+    "predicted_points": 7950,
+    "ignored_predicted_points": 0
+  },
+  "class_recalls": {
+    "5": {
+      "gt": 4827,
+      "tp": 4428,
+      "recall_pct": 91.73399627097577
+    },
+    "6": {
+      "gt": 3667,
+      "tp": 3496,
+      "recall_pct": 95.33678756476684
+    },
+    "7": {
+      "gt": 0,
+      "tp": 0,
+      "recall_pct": null
+    }
+  },
+  "spatial_bins": [
+    {
+      "offset_m": 100.0,
+      "tp": 7924,
+      "fp": 26,
+      "fn": 570,
+      "precision_pct": 99.67295597484276,
+      "recall_pct": 93.28938073934542,
+      "gt_points": 8494,
+      "predicted_points": 7950,
+      "ignored_predicted_points": 0
+    }
+  ],
+  "instance_point_counts": {
+    "1": 1526,
+    "2": 1823,
+    "3": 1408,
+    "4": 1699,
+    "5": 1494
+  },
+  "instance_accuracy": "NOT_EVALUATED: no independent real-scene instance truth",
+  "unknown_regions": [
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "导线与塔架或绝缘子的直接接合处仍有投影混叠，小范围保留未知。",
+      "selection": {
+        "view_id": "wire_1_side",
+        "type": "box",
+        "coordinates": [
+          430,
+          0,
+          448,
+          1000
+        ]
+      }
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "导线与塔架或绝缘子的直接接合处仍有投影混叠，小范围保留未知。",
+      "selection": {
+        "view_id": "wire_2_side",
+        "type": "box",
+        "coordinates": [
+          421,
+          0,
+          442,
+          1000
+        ]
+      }
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "导线与塔架或绝缘子的直接接合处仍有投影混叠，小范围保留未知。",
+      "selection": {
+        "view_id": "wire_3_side",
+        "type": "box",
+        "coordinates": [
+          399,
+          0,
+          418,
+          1000
+        ]
+      }
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "导线与塔架或绝缘子的直接接合处仍有投影混叠，小范围保留未知。",
+      "selection": {
+        "view_id": "wire_4_side",
+        "type": "box",
+        "coordinates": [
+          376,
+          0,
+          399,
+          1000
+        ]
+      }
+    },
+    {
+      "action": "UNKNOWN",
+      "observer": "conversation_vlm",
+      "reason": "导线与塔架或绝缘子的直接接合处仍有投影混叠，小范围保留未知。",
+      "selection": {
+        "view_id": "wire_5_side",
+        "type": "box",
+        "coordinates": [
+          370,
+          0,
+          390,
+          1000
+        ]
+      }
+    }
+  ],
+  "thresholds": {
+    "precision_pct": 98,
+    "recall_pct": 90,
+    "each_present_class_recall_pct": 90
+  },
+  "raw_point_gate_passed": true,
+  "full_scene_completed": false,
+  "per_class_recall_gate_passed": true,
+  "point_and_class_gate_passed": true,
+  "development_context": "Development scene; not an independent held-out evaluation",
+  "false_positive_classes": {
+    "1": 26
+  },
+  "evaluation_scope": "declared_ROI",
+  "unobserved_scene_points": 57994166,
+  "label_protocol": {
+    "positive_classes": [
+      5,
+      6,
+      7
+    ],
+    "ignored_classes": [
+      12,
+      13,
+      255
+    ],
+    "unit": "original LAS records, no voxelization",
+    "unknown_positive_points_count_as_false_negatives": true,
+    "undefined_precision_or_recall": null
+  }
+}

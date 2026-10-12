@@ -1,0 +1,121 @@
+{
+  "sessions": [
+    {
+      "run": "t1z5b_full_session",
+      "roi_y_offset_m": [
+        0,
+        770.2
+      ],
+      "protocol": "legacy_v0",
+      "geometry_sha256": "5e7388a5b16b37db67ab60450fd365955d1dadb31da7ca33614d90750c9bdf70",
+      "reference_annotation_sha256": "edca6c5ca8a3861e69bb638bec287622c6ce75504377fc2388f2eee21b5878dd",
+      "recorded_path_prefixes": [
+        "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_full_session",
+        "visual_annotation_v3/runs/t1z5b_full_session"
+      ],
+      "actions_sha256": "a782278faa6ec137dec0d584889fab20f45c8c50f890cdbfbb85976eefd65765",
+      "action_count": 38,
+      "geometry_member_sha256": {
+        "coords.npy": "f4ec83b1a4d5a9a28e88c3dead6b739611e7b1cbc4208a6684df19b120170ed8",
+        "record_ids.npy": "579c7470bd4e8538ced4c814bb21d0de83672a42bbf872fe1e51f2de1508761e"
+      }
+    },
+    {
+      "run": "tower_mid_refinement",
+      "roi_y_offset_m": [
+        395,
+        420
+      ],
+      "protocol": "legacy_v0",
+      "geometry_sha256": "7319569aa6f9b572d60694f103d4ef3824af4d54262240c16ceaaa2403c33e89",
+      "reference_annotation_sha256": "b8603def782e95ec8fc1c88db155d95ad427d37c09cbbc11670c73a7bdf60c0b",
+      "recorded_path_prefixes": [
+        "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/tower_mid_refinement",
+        "visual_annotation_v3/runs/tower_mid_refinement"
+      ],
+      "actions_sha256": "af44b4d48ca9133819f1ed8309c12e7b8d8af6d2eadcfd9425ba27df14d47d68",
+      "action_count": 11,
+      "geometry_member_sha256": {
+        "coords.npy": "9b422f0cde4ec7a76f66d04a6e93d040b22fb841425e4a8e3c01e2d82f9222ae",
+        "record_ids.npy": "1f24791deb1ab911be165c49c7bae068953924881135162c9b9749cf036621bc"
+      }
+    },
+    {
+      "run": "tower_far_refinement",
+      "roi_y_offset_m": [
+        640,
+        670
+      ],
+      "protocol": "legacy_v0",
+      "geometry_sha256": "192cfd117fb9251bd03f75087d676bfbf9dff5651bfe9728dda6bea784ef4202",
+      "reference_annotation_sha256": "a3c7fe52f35e341f2ad0cc4004ab56199bd404470504cd90035a475c9513efea",
+      "recorded_path_prefixes": [
+        "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/tower_far_refinement",
+        "visual_annotation_v3/runs/tower_far_refinement"
+      ],
+      "actions_sha256": "4a84fc6622f146360c5b2d4eaa240165c878081acc81ca859517b2d214b01132",
+      "action_count": 17,
+      "geometry_member_sha256": {
+        "coords.npy": "ee363c9207cdc17ffe43309e8720d4d5285a36ead19038f7987a6eeff0e9b019",
+        "record_ids.npy": "2e0cdca6b428dc8a4b05914ff80cf9d8138e00cd08d00c1b08c26402d627c084"
+      }
+    },
+    {
+      "run": "conversation_tower_attachment_20261011",
+      "roi_y_offset_m": [
+        100,
+        110
+      ],
+      "protocol": "legacy_v0",
+      "geometry_sha256": "0b8e3bb064c95792075277d1254a1b3925c21856a2b3682a8266746c99d5c4d1",
+      "reference_annotation_sha256": "3f397c031c491c3abdd16ad85ca55b124e44d5e27d6dc4cb0f431f9191f8cd5e",
+      "recorded_path_prefixes": [
+        "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/conversation_tower_attachment_20261011",
+        "visual_annotation_v3/runs/conversation_tower_attachment_20261011"
+      ],
+      "actions_sha256": "6ff482cc41bf8d05dc4ef1ca2d125928e81786cf3bf89c92cb47d67f94dd3f33",
+      "action_count": 33,
+      "geometry_member_sha256": {
+        "coords.npy": "5f116b6999ceed685820fbf15e3f6bebc2bd5db973f4a91d767c66e1b4027146",
+        "record_ids.npy": "2d80a4208e02b65baa6f4d0899d59e440fe68240e9bf98612ec55696db2bd43a"
+      }
+    },
+    {
+      "run": "t1z5b_30_60_session",
+      "roi_y_offset_m": [
+        30.0,
+        60.0
+      ],
+      "protocol": "legacy_v0",
+      "geometry_sha256": "5219ef1dd927ffb7dff22df0220def5273a48ccdf2f0a7ec767c3117d673e31d",
+      "reference_annotation_sha256": "e4ba097d0297ce8117d6556743e14006c2a38528a2e3e164e780c504e8520699",
+      "recorded_path_prefixes": [
+        "/workspace/pointnext_repro/paper_v1/visual_annotation_v3/runs/t1z5b_30_60_session",
+        "visual_annotation_v3/runs/t1z5b_30_60_session"
+      ],
+      "actions_sha256": "e6cb080b3034cbc7c698cf4ff9995f869cf1a134c6170549baa0cda18056e197",
+      "action_count": 25,
+      "geometry_member_sha256": {
+        "coords.npy": "5009189f6a6996ac50d4c4c09d643f74f1246f34b83076396fcf07c240e4d470",
+        "record_ids.npy": "8e3a9010b3428a28e59cfff533a42c66cde08655f1d30485ed901e7a82b97d12"
+      }
+    }
+  ],
+  "full_chain": [
+    "t1z5b_full_session",
+    "tower_mid_refinement",
+    "tower_far_refinement",
+    "conversation_tower_attachment_20261011"
+  ],
+  "small_demo": "t1z5b_30_60_session",
+  "associations": {
+    "wire_1": "s00__wire_1",
+    "wire_2": "s00__wire_2",
+    "wire_3": "s00__wire_3",
+    "wire_4": "s00__wire_4",
+    "wire_5": "s00__wire_5"
+  },
+  "association_reason": "当前会话已查看同坐标俯视参考图：红、黄、绿、蓝、紫五条基线与本轮从左到右五条线逐一对应；只向对应实例合入已双视角复核的新点，不合并邻线，也不扩展未观察区域。",
+  "association_reason_en": "Stored observer decision: associate the five locally reviewed top-view traces with the corresponding frozen full-scene instances; do not infer new associations.",
+  "full_prediction_sha256": "8784d782d3afc0fa928a0e934c1b7ee61d71f752cac69eff74611768e77366c3"
+}
